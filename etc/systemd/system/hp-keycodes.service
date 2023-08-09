@@ -1,0 +1,20 @@
+[Unit]
+Description=HP setkeycodes fix
+
+[Service]
+Type=oneshot
+Restart=no
+RemainAfterExit=no
+ExecStart=/usr/bin/setkeycodes e057 240 e058 240
+
+[Install]
+WantedBy=rescue.target
+WantedBy=multi-user.target
+WantedBy=graphical.target
+
+
+#wifi disconnect when opening laptop lid fix.
+#copy this into /etc/systemd/system/
+#then
+#sudo systemctl daemon-reload
+#sudo systemctl enable --now hp-keycodes.service
