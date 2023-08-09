@@ -1,0 +1,13 @@
+
+
+Cameras are controlled by the uvcvideo kernel module.
+
+Disable the camera until reboot - sudo modprobe -r uvcvideo.
+
+If there's the error message: modprobe: FATAL: Module uvcvideo is in use. -  sudo rmmod -f uvcvideo
+
+To enable webcam again - sudo modprobe uvcvideo
+
+Permanently disable webcam.
+
+blacklist uvcvideo >> /etc/modprobe.d/blacklist.conf

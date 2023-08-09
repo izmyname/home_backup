@@ -1,0 +1,20 @@
+#:setlocal spell spelllang=en_us,ru 
+
+If using first time - sudo nvim, so the language packs could be downloaded
+
+
+To enable spellchecking permanently:
+
+#~/.config/nvim/init.lua
+#vim.cmd 'set spell spelllang=en_us,ru'
+
+
+Normal mode:
+
+z= - look for suggestions
+
+zg - add word to dictionary
+
+]s - next misspelled word
+
+[s - previous misspelled word
