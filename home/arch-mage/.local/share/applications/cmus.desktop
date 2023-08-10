@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=cmus
+Comment=Console Music Player
+Exec=cmus
+Icon=com.deepin.Music
+Terminal=true
+Type=Application
+Categories=Audio;Player;
