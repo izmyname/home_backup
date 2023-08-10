@@ -1,9 +1,0 @@
-[2023-06-24 15:35:30.102][verbose] Chromium sandbox is enabled
-[2023-06-24 15:35:30.103][info] Running version 2023.3
-[2023-06-24 15:35:30.272][info] Detected locale: en-US
-[2023-06-24 15:35:30.325][info] Connected to the daemon
-[2023-06-24 15:35:30.432][info] Autoconnect the tunnel
-[2023-06-24 15:36:42.551][info] before-quit received
-[2023-06-24 15:36:42.551][info] Quit initiated
-[2023-06-24 15:36:42.551][info] Unsubscribed from the daemon events
-[2023-06-24 15:36:42.552][verbose] GRPC Channel connectivity state changed to 4
