@@ -1,3 +1,0 @@
-$ git add myfile1.txt myfile2.txt OR git rm myfile.txt
-$ git commit -m "My commit message"
-$ git push 

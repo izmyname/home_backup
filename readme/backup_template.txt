@@ -1,1 +1,1 @@
-apack home-ddmmyy.tar.gz .bashrc .fehbg .face .gtkrc-2.0 .nvidia-settings-rc .zshrc .zshrc.zni .local/bin .local/lib .local/share/backgrounds .local/share/applications/ .config .claws-mail
+apack home-ddmmyy.tar.gz .local/bin .local/lib .local/share/backgrounds .local/share/applications/ .config .claws-mail
