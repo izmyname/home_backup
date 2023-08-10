@@ -1,1 +1,0 @@
-apack home-ddmmyy.tar.gz .config .claws-mail
