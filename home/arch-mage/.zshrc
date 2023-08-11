@@ -36,4 +36,3 @@ cal
 
 cat ~/doc/to-do
 
-cat ~/doc/futurama-releases-season8
