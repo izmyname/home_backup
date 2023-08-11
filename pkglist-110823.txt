@@ -74,6 +74,7 @@ lib32-vkd3d
 libgsf
 libmad
 libopenraw
+libreoffice-fresh
 libwnck3
 lightdm-slick-greeter
 linux-firmware
