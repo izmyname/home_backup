@@ -73,5 +73,11 @@ settings:
     - -e
     - ranger
     - --choosefile={}
+  spellcheck.languages:
+    global:
+    - en-US
+    - ru-RU
   tabs.position:
     global: top
+  zoom.default:
+    global: 125%
