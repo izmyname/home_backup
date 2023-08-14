@@ -8,6 +8,8 @@ config_version: 2
 settings:
   auto_save.session:
     global: false
+  backend:
+    global: webengine
   bindings.commands:
     global:
       normal:
@@ -73,6 +75,14 @@ settings:
     - -e
     - ranger
     - --choosefile={}
+  hints.mode:
+    global: number
+  hints.radius:
+    global: 6
+  input.spatial_navigation:
+    global: false
+  keyhint.radius:
+    global: 25
   spellcheck.languages:
     global:
     - en-US
