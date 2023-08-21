@@ -27,6 +27,8 @@ settings:
     global: black
   colors.tabs.odd.fg:
     global: black
+  colors.webpage.darkmode.algorithm:
+    global: lightness-cielab
   colors.webpage.darkmode.enabled:
     global: true
   content.autoplay:
@@ -75,6 +77,8 @@ settings:
     - -e
     - ranger
     - --choosefile={}
+  fonts.default_size:
+    global: 12pt
   hints.mode:
     global: number
   hints.radius:
