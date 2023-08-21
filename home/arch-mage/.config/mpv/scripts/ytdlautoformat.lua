@@ -43,7 +43,7 @@ if enableVP9 == false then
 	VP9value = "[vcodec!=?vp9]"
 end
 
-local ytdlChange = "bestvideo[height<=?1080"..changedQuality.."][fps<=?"..FPSLimit.."]"..VP9value.."+bestaudio/best[height<="..changedQuality.."]"
+local ytdlChange = "bestvideo[height<=?"..changedQuality.."][fps<=?"..FPSLimit.."]"..VP9value.."+bestaudio/best[height<="..changedQuality.."]"
 local ytdlDefault = "bestvideo[fps<=?"..FPSLimit.."]"..VP9value.."+bestaudio/best"
 
 local function getStreamSource(path)
