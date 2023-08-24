@@ -141,6 +141,7 @@ snapper
 sof-firmware
 telegram-desktop
 tlp
+tor
 translate-shell
 transmission-cli
 trash-cli-git
