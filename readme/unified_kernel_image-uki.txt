@@ -3,7 +3,7 @@ https://wiki.archlinux.org/title/Unified_kernel_image
 
 I. /etc/kernel/cmdline - add kernel entries there.
 
-"Boot with standard options"  "nvme_loid=YES cryptdevice=/dev/nvme0n1p2:part root=/dev/enigma/root rootflags=subvol=@arch rw quiet bgrt_disable"
+"Boot with standard options"  "nvme_loid=YES cryptdevice=/dev/nvme0n1p2:part:allow-discards root=/dev/enigma/root rootflags=subvol=@arch rw quiet bgrt_disable"
 
 Modify cryptdevice, root and subvol if changed.
 
