@@ -17,8 +17,6 @@ bluez-utils
 bridge-utils
 brightnessctl
 btrfs-progs
-chaotic-keyring
-chaotic-mirrorlist
 claws-mail
 cmus
 dconf-editor
