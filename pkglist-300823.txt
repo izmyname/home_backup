@@ -28,6 +28,7 @@ dnsmasq
 dosfstools
 downgrade
 dunst
+duperemove
 easyeffects
 efibootmgr
 efitools
