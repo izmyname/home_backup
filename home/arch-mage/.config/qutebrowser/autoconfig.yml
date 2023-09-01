@@ -47,11 +47,13 @@ settings:
   content.private_browsing:
     global: false
   content.proxy:
-    global: socks://localhost:9050/
+    global: none
   content.register_protocol_handler:
     https://mail.proton.me#mailto=%25s: true
   downloads.location.directory:
     global: ~/net/
+  downloads.location.suggestion:
+    global: both
   editor.command:
     global:
     - kitty
