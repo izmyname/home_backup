@@ -1,0 +1,18 @@
+ sudo systemctl edit paccache
+
+### Editing /etc/systemd/system/paccache.service.d/override.conf
+### Anything between here and the comment below will become the new contents of the file
+
+[Service]
+ExecStart=
+ExecStart=/usr/bin/paccache -rk0 ; /usr/bin/paccache -ruk0
+
+### Lines below this comment will be discarded
+
+### /usr/lib/systemd/system/paccache.service
+# [Unit]
+# Description=Remove unused cached package files
+#
+# [Service]
+# Type=oneshot
+# ExecStart=/usr/bin/paccache -r

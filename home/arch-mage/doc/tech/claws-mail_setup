@@ -1,0 +1,18 @@
+Auto check new mail, set neovim as default compose editor.
+
+Preferences > receiving > Check for new mail every ...
+
+Preferences > Writing > Automatically launch the external editor
+
+Preference > External Programs:
+
+Browser - qutebrowser '%s'
+
+Text editor - qutebrowser '%s'
+
+
+If using protonmail:
+
+Preferences for the current account > Advanced:
+
+Set imap and smtp ports and enable folders
