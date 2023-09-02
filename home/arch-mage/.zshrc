@@ -4,6 +4,7 @@
 
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 4
+zstyle ':completion:*' menu select
 zstyle :compinstall filename '/home/arch-mage/.zshrc'
 
 autoload -Uz compinit
@@ -17,10 +18,6 @@ setopt autocd extendedglob notify
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
-
-autoload -Uz promptinit
-promptinit
-prompt off
 
 autoload -U colors && colors
 PS1="%{$fg[blue]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[red]%}%~%{$reset_color%} > % "
