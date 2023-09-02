@@ -177,5 +177,5 @@ xorg-xkill
 xss-lock
 yt-dlp
 zathura-djvu
-zathura-pdf-poppler
+zathura-pdf-mupdf
 zsh-completions
