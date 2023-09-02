@@ -1,12 +1,8 @@
-
-# i3 config file (v4)
-#
-# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+#Set win key as mod key.
 
 set $mod Mod4
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
+#Font for window titles.
 
 font pango: monospace 11 
 
@@ -31,11 +27,6 @@ exec --no-startup-id nm-applet
 #Set wallpaper
 
 exec --no-startup-id $HOME/.fehbg &
-
-
-#Uncomment if blueman - Devices doesn't open
-
-#exec_always --no-startup-id systemctl --user import-environment DISPLAY
 
 
 #Launch polybar 
@@ -65,12 +56,6 @@ exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggl
 #Wifi and bluetooth killswitch
 
 bindcode $mod+96 exec --no-startup-id rfkill toggle all
-
-#Dex autostart. Don't uncomment if dex installed
-
-#exec --no-startup-id picom -b
-#exec --no-startup-id easyeffects --gapplication-service
-
 
 #Control brightness with brightnessctl
 
