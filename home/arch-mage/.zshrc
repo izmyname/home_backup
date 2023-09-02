@@ -23,7 +23,7 @@ promptinit
 prompt off
 
 autoload -U colors && colors
-PS1="%{$fg[blue]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%{$fg[green]%}%n@%m%{$reset_color%} %{$fg[red]%}%~%{$reset_color%}:% "
+PS1="%{$fg[blue]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[red]%}%~%{$reset_color%} > % "
 
 alias "ls=ls --color=auto"
 alias "grep=grep --color=auto"
