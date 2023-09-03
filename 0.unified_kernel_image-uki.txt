@@ -1,13 +1,13 @@
 https://wiki.archlinux.org/title/Unified_kernel_image
 
 
-I. /etc/kernel/cmdline - add kernel entries there.
+I. /etc/kernel/cmdline - Modify cryptdevice, root and subvol if changed.
+
 
 "Boot with standard options"  "nvme_loid=YES cryptdevice=/dev/nvme0n1p2:part:allow-discards root=/dev/enigma/root rootflags=subvol=@arch rw quiet bgrt_disable"
 
-Modify cryptdevice, root and subvol if changed.
 
-II. Modify /etc/mkinitcpio.d/linux.preset
+II. Check /etc/mkinitcpio.d/linux.preset and edit if necessary
 
 (!)NOTE: linux = linux-zen
 
@@ -37,7 +37,7 @@ IV. mkdir /boot/EFI/Linux
 
 V. mkinitcpio -P linux (linux-zen etc)
 
-VI. Delete unused boot initramfs-*.img
+VI. Delete unused boot initramfs-*.img if there are any
 
 VII. Add uki images to EFI.
 
