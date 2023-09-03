@@ -2,7 +2,7 @@
 # /home/arch-mage/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA Settings utility
-# Generated on Tue Jul 11 15:38:07 2023
+# Generated on Sun Sep  3 14:34:50 2023
 #
 
 # ConfigProperties:
@@ -10,11 +10,11 @@
 RcFileLocale = C
 DisplayStatusBar = Yes
 SliderTextEntries = Yes
-IncludeDisplayNameInConfigFile = No
+IncludeDisplayNameInConfigFile = Yes
 UpdateRulesOnProfileNameChange = Yes
-Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = Memory_Used_(GPU_0),Yes,3000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 
 # Attributes:
 
