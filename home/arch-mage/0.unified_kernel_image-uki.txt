@@ -9,7 +9,9 @@ Modify cryptdevice, root and subvol if changed.
 
 II. Modify /etc/mkinitcpio.d/linux.preset
 
-# mkinitcpio preset file for the 'linux' package
+(!)NOTE: linux = linux-zen
+
+# mkinitcpio preset file for the 'linux-zen' package
 
 #ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-linux"
