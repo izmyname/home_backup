@@ -5,13 +5,13 @@
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 4
 zstyle ':completion:*' menu select
-zstyle :compinstall filename '/home/arch-mage/.zshrc'
+zstyle :compinstall filename '/home/arch-mage/.config/zsh/zshrc'
 
 autoload -Uz compinit
 compinit -d ~/.cache/zcompdump
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.cache/zsh_histfile
+HISTFILE=~/.cache/zhistfile
 HISTSIZE=500
 SAVEHIST=500
 setopt autocd extendedglob notify
@@ -38,3 +38,5 @@ alias clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
 cal
 
 cat ~/doc/to-do
+
+cat ~/doc/futurama-releases-season8
