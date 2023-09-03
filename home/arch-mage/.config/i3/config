@@ -1,40 +1,26 @@
-#Set win key as mod key.
-
+#set win key as mod key.
 set $mod Mod4
 
-#Font for window titles.
+#font for window titles.
+font pango: monospace 12 
 
-font pango: monospace 11 
+#set xss-lock and i3lock. Use loginctl lock-session to lock screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
 
-
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
-
+#XDG autostart .desktop files using dex.
 exec --no-startup-id dex --autostart --environment i3
 
+#feh wallpaper
+exec --no-startup-id $HOME/.config/feh/fehbg &
 
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork 
-
-
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-
-exec --no-startup-id nm-applet
-
-#Set wallpaper
-
-exec --no-startup-id $HOME/.fehbg &
-
-
-#Launch polybar 
-
+#polybar
 exec_always --no-startup-id $HOME/.local/bin/launch.sh
 
-#Launch on startup
+#Switch keyboard layout
+exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
 
+#autostart
+exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
 exec --no-startup-id udiskie -t &
 exec --no-startup-id dunst 
@@ -43,22 +29,16 @@ exec --no-startup-id playerctld daemon
 exec_always --no-startup-id unclutter &
 
 #playerctld remote control
-
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindcode $mod+76 exec --no-startup-id playerctl stop
 
-#Switch keyboard layout
-
-exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
 
 #Wifi and bluetooth killswitch
-
 bindcode $mod+96 exec --no-startup-id rfkill toggle all
 
 #Control brightness with brightnessctl
-
 bindcode $mod+69 exec --no-startup-id brightnessctl set +10%
 bindcode $mod+68 exec --no-startup-id brightnessctl set 10%-
 
@@ -77,47 +57,39 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-# start a terminal #(TERMINAL= from /etc/environment)
+
+#start a terminal #(TERMINAL= from /etc/environment)
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
-# kill focused window
+#kill focused window
 bindsym $mod+q kill
 
-# use xkill to kill frozen window
-
+#use xkill to kill frozen window
 bindsym --release $mod+Shift+q exec --no-startup-id  xkill 
 
-# suspend to RAM (sleep)
-
+#suspend to RAM (sleep)
 bindsym $mod+Escape exec --no-startup-id systemctl suspend
 
-# reboot
-
+#reboot
 bindsym $mod+Shift+Escape exec --no-startup-id reboot
 
 
 # open Ranger File manager
-
 bindsym $mod+z exec --no-startup-id $TERMINAL -e ranger 
 
 # open web browser
-
 bindsym $mod+x exec --no-startup-id $BROWSER
 
 # open email client
-
 bindsym $mod+c exec --no-startup-id claws-mail 
 
 # open text editor
-
 bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR 
 
 # run tty-clock to display time in a terminal.
 bindsym $mod+t exec --no-startup-id $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
 
-
 # start a program launcher
-
 bindcode $mod+40 exec "rofi -modi drun,run -show drun -show-icons"
 
 # change focus
@@ -248,12 +220,24 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
-
-
 #Disable screen edge borders
-
 hide_edge_borders both
+
+#No window titlebar and borders
+default_border none
+default_floating_border normal
+
+#Default_orientation horizontal|vertical|auto
+default_orientation auto
+
+#Workspace_layout default|stacking|tabbed
+workspace_layout default
+
+#Window title_align left|center|right
+title_align center
+
+#Toggle mouse pointer focusing windows.
+focus_follows_mouse no
 
 #Window borders' colors
 
@@ -265,29 +249,5 @@ client.urgent           #000000 #000000 #ffffff #000000   #000000
 client.placeholder      #000000 #000000 #ffffff #000000   #000000
 
 client.background       #ffffff
-
-
-
-#No window titlebar and borders
-
-default_border none
-
-default_floating_border normal
-
-#default_orientation horizontal|vertical|auto
-
-default_orientation auto
-
-#workspace_layout default|stacking|tabbed
-
-workspace_layout default
-
-#window title_align left|center|right
-
-title_align center
-
-#toggle mouse pointer focusing windows.
-
-focus_follows_mouse no
 
 
