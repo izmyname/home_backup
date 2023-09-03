@@ -38,5 +38,3 @@ alias clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
 cal
 
 cat ~/doc/to-do
-
-cat ~/doc/futurama-releases-season8
