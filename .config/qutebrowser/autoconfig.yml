@@ -36,7 +36,7 @@ settings:
   content.blocking.method:
     global: both
   content.cookies.accept:
-    global: no-3rdparty
+    global: all
   content.javascript.clipboard:
     aur.archlinux.org: access
     github.com: access
