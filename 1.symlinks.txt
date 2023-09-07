@@ -1,5 +1,3 @@
-ln -s /usr/bin/rofi /usr/bin/dmenu
-
 ln -s ~/.config/gtk-2.0/gtkrc-2.0 ~/.gtkrc-2.0
 
 ln -s ~/.config/feh/fehbg ~/.fehbg
