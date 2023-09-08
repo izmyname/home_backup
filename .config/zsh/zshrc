@@ -3,7 +3,7 @@
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored
-zstyle ':completion:*' max-errors 4
+zstyle ':completion:*' max-errors 3
 zstyle ':completion:*' menu select
 zstyle :compinstall filename '/home/arch-mage/.config/zsh/zshrc'
 
@@ -15,6 +15,7 @@ HISTFILE=~/.cache/zhistfile
 HISTSIZE=500
 SAVEHIST=500
 setopt autocd extendedglob notify
+setopt correct
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
