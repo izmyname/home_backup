@@ -16,13 +16,13 @@
     "cache-size-mb": 4,
     "default-trackers": "",
     "dht-enabled": true,
-    "download-dir": "/home/arch-mage/net",
+    "download-dir": "/home/arch-mage/web",
     "download-queue-enabled": true,
     "download-queue-size": 3,
     "encryption": 1,
     "idle-seeding-limit": 30,
     "idle-seeding-limit-enabled": false,
-    "incomplete-dir": "/home/arch-mage/net",
+    "incomplete-dir": "/home/arch-mage/web",
     "incomplete-dir-enabled": false,
     "lpd-enabled": true,
     "message-level": 4,
@@ -76,6 +76,6 @@
     "umask": "022",
     "upload-slots-per-torrent": 8,
     "utp-enabled": true,
-    "watch-dir": "/home/arch-mage/net",
+    "watch-dir": "/home/arch-mage/web",
     "watch-dir-enabled": true
 }
