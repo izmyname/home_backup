@@ -1,25 +1,25 @@
-#set win key as mod key.
+#win key as mod key.
 set $mod Mod4
 
-#font for window titles.
-font pango: monospace 12 
+#terminal #(TERMINAL= from /etc/environment)
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
-#set xss-lock and i3lock. Use loginctl lock-session to lock screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
-
-#XDG autostart .desktop files using dex.
-exec --no-startup-id dex --autostart --environment i3
+#program launcher
+bindcode $mod+40 exec "rofi -modi drun,run -show drun -show-icons"
 
 #feh wallpaper
 exec --no-startup-id $HOME/.config/feh/fehbg &
 
-#polybar
-exec_always --no-startup-id $HOME/.local/bin/launch.sh
+#lockscreen - xss-lock and i3lock. Use loginctl lock-session to lock screen manually.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
 
-#Switch keyboard layout
-exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
+#font for window titles.
+font pango: monospace 12 
 
 #autostart
+exec --no-startup-id dex --autostart --environment i3
+exec_always --no-startup-id $HOME/.local/bin/launch.sh
+exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
 exec --no-startup-id udiskie -t &
@@ -34,14 +34,9 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindcode $mod+76 exec --no-startup-id playerctl stop
 
-
-#Wifi and bluetooth killswitch
-bindcode $mod+96 exec --no-startup-id rfkill toggle all
-
 #Control brightness with brightnessctl
 bindcode $mod+69 exec --no-startup-id brightnessctl set +10%
 bindcode $mod+68 exec --no-startup-id brightnessctl set 10%-
-
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -58,8 +53,6 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 
-#start a terminal #(TERMINAL= from /etc/environment)
-bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
 #kill focused window
 bindsym $mod+q kill
@@ -73,6 +66,8 @@ bindsym $mod+Escape exec --no-startup-id systemctl suspend
 #reboot
 bindsym $mod+Shift+Escape exec --no-startup-id reboot
 
+#Wifi and bluetooth killswitch
+bindcode $mod+96 exec --no-startup-id rfkill toggle all
 
 # open Ranger File manager
 bindsym $mod+z exec --no-startup-id $TERMINAL -e ranger 
@@ -88,9 +83,6 @@ bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR
 
 # run tty-clock to display time in a terminal.
 bindsym $mod+t exec --no-startup-id $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
-
-# start a program launcher
-bindcode $mod+40 exec "rofi -modi drun,run -show drun -show-icons"
 
 # change focus
 bindsym $mod+h focus left
@@ -139,9 +131,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# focus the child container
-#bindsym $mod+d focus child
-
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -179,12 +168,9 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-
 # switch between the current and the previously focused one
 bindsym $mod+p workspace back_and_forth
 bindsym $mod+Shift+p move container to workspace back_and_forth
-
-
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
