@@ -2,6 +2,8 @@
 Arch Linux home backup
 
 yt-dlp downloads location - ~/vid
+
+
 transmission download/watchdir location ~/web
 
 Polybar fonts - otf-font-awesome noto-fonts, ttf-dejavu
