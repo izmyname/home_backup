@@ -30,8 +30,7 @@ exec_always --no-startup-id unclutter &
 
 #playerctld remote control
 bindsym XF86AudioNext exec --no-startup-id playerctl next
-bindsym XF86AudioPrev exec --no-startup-id playerctl previous
-bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindcode $mod+76 exec --no-startup-id playerctl stop
 
 #Control brightness with brightnessctl
@@ -69,20 +68,25 @@ bindsym $mod+Shift+Escape exec --no-startup-id reboot
 #Wifi and bluetooth killswitch
 bindcode $mod+96 exec --no-startup-id rfkill toggle all
 
-# open Ranger File manager
+#open Ranger File manager
 bindsym $mod+z exec --no-startup-id $TERMINAL -e ranger 
 
-# open web browser
+#open web browser
 bindsym $mod+x exec --no-startup-id $BROWSER
 
-# open email client
+#open email client
 bindsym $mod+c exec --no-startup-id claws-mail 
 
-# open text editor
+#open text editor
 bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR 
 
-# run tty-clock to display time in a terminal.
+#run tty-clock to display time in a terminal.
 bindsym $mod+t exec --no-startup-id $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
+
+#take screenshots
+bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
+bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/screenshot-$(date)"
 
 # change focus
 bindsym $mod+h focus left
