@@ -10,7 +10,9 @@ Polybar fonts - otf-font-awesome noto-fonts, ttf-dejavu
 
 Extra programs used with i3 (aside from the ones from the default i3 config) - brightnessctl playerctl feh rofi ranger tty-clock unclutter maim claws-mail
 
-Terminal, browser and some other programs are set in /etc/environment as variables.
+Terminal (kitty), browser (qutebrowser) and some other programs are set in /etc/environment as variables.
+
+kitty theme - noirblaze
 
 <b>Symlinks:</b>
 
