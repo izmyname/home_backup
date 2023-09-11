@@ -28,11 +28,10 @@ exec --no-startup-id transmission-daemon
 exec --no-startup-id playerctld daemon
 exec_always --no-startup-id unclutter &
 
-#playerctld remote control
-bindsym XF86AudioNext exec --no-startup-id playerctl next
-bindsym XF86AudioPrev exec --no-startup-id playerctl previous
-bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
-bindcode $mod+76 exec --no-startup-id playerctl stop
+#mpd-mpc remote control
+bindsym XF86AudioNext exec --no-startup-id mpc next
+bindsym XF86AudioPrev exec --no-startup-id mpc prev
+bindsym XF86AudioPlay exec --no-startup-id mpc toggle
 
 #Control brightness with brightnessctl
 bindcode $mod+69 exec --no-startup-id brightnessctl set +10%
