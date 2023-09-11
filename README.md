@@ -3,6 +3,7 @@ Arch Linux home backup
 
 yt-dlp downloads location - ~/vid
 
+mpd music location - ~/mus
 
 transmission download/watchdir location ~/web
 
