@@ -46,5 +46,3 @@ alias mpc-del="mpc del"
 cal
 
 cat ~/doc/to-do
-
-cat ~/doc/futurama-releases-season8
