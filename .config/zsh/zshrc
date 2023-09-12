@@ -35,13 +35,6 @@ alias ZZZ='poweroff'
 alias lock='loginctl lock-session'
 alias clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
 
-#Aliases for mpc - a client for mpd daemon.
-alias mpc-pl="mpc playlist -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'" 
-alias mpc-cur="mpc current -f '%position%. %Artist% %performer% - %title% (%Album% %date)'"
-alias mpc-que="mpc queued -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
-alias mpc-mv="mpc move"
-alias mpc-del="mpc del"
-
 # Custom commands
 cal
 
