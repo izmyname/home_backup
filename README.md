@@ -23,6 +23,8 @@ ln -s ~/.config/feh/fehbg ~/.fehbg
 
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 
+ln -s ~/.config/zsh/zshenv ~/.zshenv
+
 ln -s ~/.config/nvidia/nvidia-settings-rc ~/.nvidia-settings-rc
 
 mkdir ~/.config/claws-mail
