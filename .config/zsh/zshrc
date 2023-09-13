@@ -35,7 +35,7 @@ alias ZZZ='poweroff'
 alias lock='loginctl lock-session'
 alias clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
 
-#Use this instead setting $MPC_FORMAT becsuse the latter breaks completions
+#Use this instead setting $MPC_FORMAT because the latter breaks completions
 alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
 
 # Custom commands
