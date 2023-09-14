@@ -33,4 +33,4 @@ main_window_color = "magenta"
 centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "nvim"
-execute_on_song_change = songinfo
+execute_on_song_change = ~/.local/bin/songinfo
