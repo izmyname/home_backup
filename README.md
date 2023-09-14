@@ -15,8 +15,6 @@ Terminal (kitty), browser (qutebrowser) and some other programs are set in /etc/
 
 kitty theme - noirblaze
 
-mkdir .cache/ncmpcpp_previews - for album previews when ncmpcpp launched.
-
 <b>Symlinks:</b>
 
 ln -s ~/.config/gtk-2.0/gtkrc-2.0 ~/.gtkrc-2.0
