@@ -34,3 +34,4 @@ centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "nvim"
 execute_on_song_change = ~/.local/bin/songinfo
+startup_screen = visualizer
