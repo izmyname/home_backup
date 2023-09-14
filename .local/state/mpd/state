@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:my_fifo
 state: pause
-current: 651
-time: 1.824000
+current: 2517
+time: 1.186000
 random: 1
 repeat: 0
 single: 0
@@ -7737,15 +7738,6 @@ Track: 08
 Title: Elddansurin
 mtime: 1683661653
 song_end
-song_begin: Heilung/Futha (2019)/Heilung - Futha.cue/track0009
-Range: 3557813-
-Time: 4396.301000
-Date: 2019
-Album: Futha
-Track: 09
-Title: Hamrer Hippyer
-mtime: 1683661653
-song_end
 song_begin: Heilung/Ofnir (2015)/Heilung - Ofnir.cue/track0001
 Range: 0-407240
 Time: 4304.381000
@@ -7755,6 +7747,15 @@ Title: Alfadhirhaiti
 Artist: Heilung
 Date: 2015
 mtime: 1683661657
+song_end
+song_begin: Heilung/Futha (2019)/Heilung - Futha.cue/track0009
+Range: 3557813-
+Time: 4396.301000
+Date: 2019
+Album: Futha
+Track: 09
+Title: Hamrer Hippyer
+mtime: 1683661653
 song_end
 song_begin: Heilung/Ofnir (2015)/Heilung - Ofnir.cue/track0002
 Range: 407240-945560
@@ -11303,13 +11304,13 @@ song_end
 1639:NieR Automata Original Soundtrack [2017]/CD 1/15. Keiichi Okabe - Weight Of The World English Version.flac
 1640:NieR Automata Original Soundtrack [2017]/CD 2/01. Keiichi Okabe - Significance.flac
 1641:NieR Automata Original Soundtrack [2017]/CD 2/02. Keiichi Okabe - City Ruins - Shade.flac
-1642:NieR Automata Original Soundtrack [2017]/CD 2/03. Keiichi Okabe - End Of The Unknown.flac
-1643:NieR Automata Original Soundtrack [2017]/CD 2/04. Keiichi Okabe - Voice Of No Return - Normal.flac
-1644:NieR Automata Original Soundtrack [2017]/CD 2/05. Keiichi Okabe - Pascal.flac
-1645:NieR Automata Original Soundtrack [2017]/CD 2/06. Keigo Hoashi - Forest Kingdom.flac
-1646:NieR Automata Original Soundtrack [2017]/CD 2/07. Keigo Hoashi, Keiichi Okabe - Dark Colossus - Kaiju.flac
-1647:NieR Automata Original Soundtrack [2017]/CD 2/08. Keigo Hoashi - Copied City.flac
-1648:NieR Automata Original Soundtrack [2017]/CD 2/09. Keiichi Okabe - Wretched Weaponry- Medium-Dynamic.flac
+1642:NieR Automata Original Soundtrack [2017]/CD 2/04. Keiichi Okabe - Voice Of No Return - Normal.flac
+1643:NieR Automata Original Soundtrack [2017]/CD 2/05. Keiichi Okabe - Pascal.flac
+1644:NieR Automata Original Soundtrack [2017]/CD 2/06. Keigo Hoashi - Forest Kingdom.flac
+1645:NieR Automata Original Soundtrack [2017]/CD 2/07. Keigo Hoashi, Keiichi Okabe - Dark Colossus - Kaiju.flac
+1646:NieR Automata Original Soundtrack [2017]/CD 2/08. Keigo Hoashi - Copied City.flac
+1647:NieR Automata Original Soundtrack [2017]/CD 2/09. Keiichi Okabe - Wretched Weaponry- Medium-Dynamic.flac
+1648:NieR Automata Original Soundtrack [2017]/CD 2/03. Keiichi Okabe - End Of The Unknown.flac
 1649:NieR Automata Original Soundtrack [2017]/CD 2/10. Keiichi Okabe - Possessed By Disease.flac
 1650:NieR Automata Original Soundtrack [2017]/CD 2/11. Keigo Hoashi - Broken Heart.flac
 1651:NieR Automata Original Soundtrack [2017]/CD 2/12. Keiichi Okabe - Wretched Weaponry- Quiet.flac
@@ -11707,149 +11708,6 @@ Title: Anima Noir
 Artist: Theatres Des Vampires
 mtime: 1683744221
 song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0001
-Range: 0-324986
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 01
-Title: Keeper Of Secrets
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0002
-Range: 324986-536906
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 02
-Title: Fly Away
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0003
-Range: 536906-804893
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 03
-Title: Moonlight Waltz
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0004
-Range: 804893-1104306
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 04
-Title: Carmilla
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0005
-Range: 1104306-1343266
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 05
-Title: Sangue
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0006
-Range: 1343266-1606200
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 06
-Title: Figlio Della Luna
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0007
-Range: 1606200-1906133
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 07
-Title: Black Madonna
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0008
-Range: 1906133-2207506
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 08
-Title: Illusion
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0009
-Range: 2207506-2444933
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 09
-Title: Le Grand Guignol
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0010
-Range: 2444933-2710146
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 10
-Title: Obsession
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0011
-Range: 2710146-2922480
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 11
-Title: The Gates Of Hades
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0012
-Range: 2922480-3199346
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 12
-Title: Medousa
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
-song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0013
-Range: 3199346-
-Time: 3445.786000
-Genre: Vampiric Metal
-Date: 2011
-Album: Moonlight Waltz
-Track: 13
-Title: Carmilla (radio edit)
-Artist: Theatres des Vampires
-mtime: 1683688216
-song_end
 song_begin: Theatres des Vampires/2016 - Candyland/Theatres des Vampires - Candyland.cue/track0001
 Range: 0-222413
 Time: 2403.080000
@@ -11982,17 +11840,17 @@ Artist: Theatres des Vampires
 Disc: 1
 mtime: 1683622017
 song_end
-1970:UnSun/Clinic For Dolls 2010/01 - UnSun - The Lost Way.flac
-1971:UnSun/Clinic For Dolls 2010/02 - UnSun - Clinic For Dolls.flac
-1972:UnSun/Clinic For Dolls 2010/03 - UnSun - Time.flac
-1973:UnSun/Clinic For Dolls 2010/04 - UnSun - Mockers.flac
-1974:UnSun/Clinic For Dolls 2010/05 - UnSun - Not Enough.flac
-1975:UnSun/Clinic For Dolls 2010/06 - UnSun - The Last Tear.flac
-1976:UnSun/Clinic For Dolls 2010/07 - UnSun - Home.flac
-1977:UnSun/Clinic For Dolls 2010/08 - UnSun - I Ceased.flac
-1978:UnSun/Clinic For Dolls 2010/09 - UnSun - A Single Touch.flac
-1979:UnSun/Clinic For Dolls 2010/10 - UnSun - Why.flac
-1980:UnSun/The End of Life 2008/Data/unsun__whispers__vcd__ntsc.mpg
+1957:UnSun/Clinic For Dolls 2010/01 - UnSun - The Lost Way.flac
+1958:UnSun/Clinic For Dolls 2010/02 - UnSun - Clinic For Dolls.flac
+1959:UnSun/Clinic For Dolls 2010/03 - UnSun - Time.flac
+1960:UnSun/Clinic For Dolls 2010/04 - UnSun - Mockers.flac
+1961:UnSun/Clinic For Dolls 2010/05 - UnSun - Not Enough.flac
+1962:UnSun/Clinic For Dolls 2010/06 - UnSun - The Last Tear.flac
+1963:UnSun/Clinic For Dolls 2010/07 - UnSun - Home.flac
+1964:UnSun/Clinic For Dolls 2010/08 - UnSun - I Ceased.flac
+1965:UnSun/Clinic For Dolls 2010/09 - UnSun - A Single Touch.flac
+1966:UnSun/Clinic For Dolls 2010/10 - UnSun - Why.flac
+1967:UnSun/The End of Life 2008/Data/unsun__whispers__vcd__ntsc.mpg
 song_begin: UnSun/The End of Life 2008/Unsun - The End Of Life.cue/track0001
 Range: 0-213253
 Time: 2541.053000
@@ -12186,17 +12044,17 @@ Track: 09
 Title: Farin Uttan At Verda Vekk
 mtime: 1683649466
 song_end
-2001:Valravn/Krunk Krunk (2007)/01 - Kom alle væsener (part I).flac
-2002:Valravn/Krunk Krunk (2007)/02 - Marsk.flac
-2003:Valravn/Krunk Krunk (2007)/03 - Ganda kvaði trónda.flac
-2004:Valravn/Krunk Krunk (2007)/04 - Vallevan.flac
-2005:Valravn/Krunk Krunk (2007)/05 - Drømte mig en drøm i nat.flac
-2006:Valravn/Krunk Krunk (2007)/06 - Krummi.flac
-2007:Valravn/Krunk Krunk (2007)/07 - Skovdanser.flac
-2008:Valravn/Krunk Krunk (2007)/08 - Svend i Rosengaard.flac
-2009:Valravn/Krunk Krunk (2007)/09 - Bialowieza.flac
-2010:Valravn/Krunk Krunk (2007)/10 - Hr. Sinklar.flac
-2011:Valravn/Krunk Krunk (2007)/11 - Kom alle væsener (part II).flac
+1988:Valravn/Krunk Krunk (2007)/01 - Kom alle væsener (part I).flac
+1989:Valravn/Krunk Krunk (2007)/02 - Marsk.flac
+1990:Valravn/Krunk Krunk (2007)/03 - Ganda kvaði trónda.flac
+1991:Valravn/Krunk Krunk (2007)/04 - Vallevan.flac
+1992:Valravn/Krunk Krunk (2007)/05 - Drømte mig en drøm i nat.flac
+1993:Valravn/Krunk Krunk (2007)/06 - Krummi.flac
+1994:Valravn/Krunk Krunk (2007)/07 - Skovdanser.flac
+1995:Valravn/Krunk Krunk (2007)/08 - Svend i Rosengaard.flac
+1996:Valravn/Krunk Krunk (2007)/09 - Bialowieza.flac
+1997:Valravn/Krunk Krunk (2007)/10 - Hr. Sinklar.flac
+1998:Valravn/Krunk Krunk (2007)/11 - Kom alle væsener (part II).flac
 song_begin: Wardruna/Kvitravn (2021)/Wardruna - Kvitravn.cue/track0001
 Range: 0-288626
 Time: 3925.021000
@@ -12704,24 +12562,24 @@ Track: 10
 Title: Helvegen (Skaldic Version)
 mtime: 1683764119
 song_end
-2066:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0001
-2067:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0002
-2068:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0003
-2069:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0004
-2070:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0005
-2071:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0006
-2072:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0007
-2073:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0008
-2074:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0009
-2075:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0010
-2076:Within Temptation/Albums/Within Temptation - 1997 - Enter/01 - Restless.flac
-2077:Within Temptation/Albums/Within Temptation - 1997 - Enter/02 - Enter.flac
-2078:Within Temptation/Albums/Within Temptation - 1997 - Enter/03 - Pearls Of Light.flac
-2079:Within Temptation/Albums/Within Temptation - 1997 - Enter/04 - Deep Within.flac
-2080:Within Temptation/Albums/Within Temptation - 1997 - Enter/05 - Gatekeeper.flac
-2081:Within Temptation/Albums/Within Temptation - 1997 - Enter/06 - Grace.flac
-2082:Within Temptation/Albums/Within Temptation - 1997 - Enter/07 - Blooded.flac
-2083:Within Temptation/Albums/Within Temptation - 1997 - Enter/08 - Candles.flac
+2053:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0001
+2054:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0002
+2055:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0003
+2056:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0004
+2057:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0005
+2058:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0006
+2059:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0007
+2060:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0008
+2061:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0009
+2062:Within Temptation/Albums/2019 - Resist [restored]/Within Temptation - Resist.flac.cue/track0010
+2063:Within Temptation/Albums/Within Temptation - 1997 - Enter/01 - Restless.flac
+2064:Within Temptation/Albums/Within Temptation - 1997 - Enter/02 - Enter.flac
+2065:Within Temptation/Albums/Within Temptation - 1997 - Enter/03 - Pearls Of Light.flac
+2066:Within Temptation/Albums/Within Temptation - 1997 - Enter/04 - Deep Within.flac
+2067:Within Temptation/Albums/Within Temptation - 1997 - Enter/05 - Gatekeeper.flac
+2068:Within Temptation/Albums/Within Temptation - 1997 - Enter/06 - Grace.flac
+2069:Within Temptation/Albums/Within Temptation - 1997 - Enter/07 - Blooded.flac
+2070:Within Temptation/Albums/Within Temptation - 1997 - Enter/08 - Candles.flac
 song_begin: Within Temptation/Albums/Within Temptation - 1997 - Enter (Japan)/Enter (Japan).cue/track0001
 Range: 0-368026
 Time: 3086.933000
@@ -12931,17 +12789,17 @@ Title: In Perfect Harmony
 Artist: Within Temptation
 mtime: 1683722515
 song_end
-2103:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0001
-2104:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0002
-2105:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0003
-2106:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0004
-2107:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0005
-2108:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0006
-2109:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0007
-2110:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0008
-2111:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0009
-2112:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0010
-2113:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD2/01 - World Of Make Believe.flac
+2090:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0001
+2091:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0002
+2092:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0003
+2093:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0004
+2094:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0005
+2095:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0006
+2096:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0007
+2097:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0008
+2098:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0009
+2099:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD1/Mother Earth_Edit.cue/track0010
+2100:Within Temptation/Albums/Within Temptation - 2000 (2001) - Mother Earth (Limited Edition) (2CD)/CD2/01 - World Of Make Believe.flac
 song_begin: Within Temptation/Albums/Within Temptation - 2000 (2007) - Mother Earth (Reissue)/Within Temptation - Mother Earth.cue/track0001
 Range: 0-329533
 Time: 4760.893000
@@ -13239,7 +13097,7 @@ Title: Jane Doe (Bonus Track)
 Artist: Within Temptation
 mtime: 1683722514
 song_end
-2141:Within Temptation/Albums/Within Temptation - 2004 - The Silent Force (Special Russian Version)/CDExtra/stand my ground.mpg
+2128:Within Temptation/Albums/Within Temptation - 2004 - The Silent Force (Special Russian Version)/CDExtra/stand my ground.mpg
 song_begin: Within Temptation/Albums/Within Temptation - 2004 - The Silent Force (Special Russian Version)/Within Temptation - The Silent Force.cue/track0001
 Range: 0-118106
 Time: 2778.720000
@@ -13504,17 +13362,17 @@ Title: The Swan Song (Bonus Track)
 Artist: Within Temptation
 mtime: 1683722514
 song_end
-2166:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/01 - The Howling.flac
-2167:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/02 - What Have You Done.flac
-2168:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/03 - Frozen.flac
-2169:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/04 - Our Solemn Hour.flac
-2170:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/05 - The Heart of Everything.flac
-2171:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/06 - Hand of Sorrow.flac
-2172:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/07 - The Cross.flac
-2173:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/08 - Final Destination.flac
-2174:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/09 - All I Need.flac
-2175:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/10 - The Truth Beneath The Rose.flac
-2176:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/11 - Forgiven.flac
+2153:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/01 - The Howling.flac
+2154:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/02 - What Have You Done.flac
+2155:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/03 - Frozen.flac
+2156:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/04 - Our Solemn Hour.flac
+2157:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/05 - The Heart of Everything.flac
+2158:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/06 - Hand of Sorrow.flac
+2159:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/07 - The Cross.flac
+2160:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/08 - Final Destination.flac
+2161:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/09 - All I Need.flac
+2162:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/10 - The Truth Beneath The Rose.flac
+2163:Within Temptation/Albums/Within Temptation - 2007 - The Heart of Everything/11 - Forgiven.flac
 song_begin: Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (Japan)/The Heart Of Everything (Japan).cue/track0001
 Range: 0-334386
 Time: 4404.547000
@@ -13789,8 +13647,8 @@ Track: 12
 Title: What Have You Done (feat. Keith Caputo) (Rock Mix)
 mtime: 1683722514
 song_end
-2203:Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (Special Edition)/Within Temptation - The Heart Of Everything Special Edition (SE).ape
-2204:Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (US Retail)/13 - What Have You Done (Extended Version).flac
+2190:Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (Special Edition)/Within Temptation - The Heart Of Everything Special Edition (SE).ape
+2191:Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (US Retail)/13 - What Have You Done (Extended Version).flac
 song_begin: Within Temptation/Albums/Within Temptation - 2007 - The Heart Of Everything (US Retail)/The Heart of Everything.CUE/track0001
 Range: 0-333066
 Time: 333.546000
@@ -14066,19 +13924,19 @@ Title: Stairway to the skies
 Artist: Within Temptation
 mtime: 1683719471
 song_end
-2230:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/01-Within_Temptation-Why_Not_Me-LLS.flac
-2231:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/02-Within_Temptation-Shot_In_The_Dark-LLS.flac
-2232:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/03-Within_Temptation-In_The_Middle_Of_The_Night-LLS.flac
-2233:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/04-Within_Temptation-Faster-LLS.flac
-2234:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/05-Within_Temptation-Fire_And_Ice-LLS.flac
-2235:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/06-Within_Temptation-Iron-LLS.flac
-2236:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/07-Within_Temptation-Where_Is_The_Edge-LLS.flac
-2237:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/08-Within_Temptation-Sinead-LLS.flac
-2238:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/09-Within_Temptation-Lost-LLS.flac
-2239:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/10-Within_Temptation-Murder-LLS.flac
-2240:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/11-Within_Temptation-A_Demon_s_Fate-LLS.flac
-2241:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/12-Within_Temptation-Stairway_To_The_Skies-LLS.flac
-2242:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/13-Within_Temptation-The_Last_Dance-LLS.flac
+2217:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/01-Within_Temptation-Why_Not_Me-LLS.flac
+2218:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/02-Within_Temptation-Shot_In_The_Dark-LLS.flac
+2219:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/03-Within_Temptation-In_The_Middle_Of_The_Night-LLS.flac
+2220:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/04-Within_Temptation-Faster-LLS.flac
+2221:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/05-Within_Temptation-Fire_And_Ice-LLS.flac
+2222:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/06-Within_Temptation-Iron-LLS.flac
+2223:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/07-Within_Temptation-Where_Is_The_Edge-LLS.flac
+2224:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/08-Within_Temptation-Sinead-LLS.flac
+2225:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/09-Within_Temptation-Lost-LLS.flac
+2226:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/10-Within_Temptation-Murder-LLS.flac
+2227:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/11-Within_Temptation-A_Demon_s_Fate-LLS.flac
+2228:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/12-Within_Temptation-Stairway_To_The_Skies-LLS.flac
+2229:Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Columbia Dragnet) [WEB]/13-Within_Temptation-The_Last_Dance-LLS.flac
 song_begin: Within Temptation/Albums/Within Temptation - 2011 - The Unforgiving (Polish Edition)/Within Temptation - The Unforgiving.cue/track0001
 Range: 0-34493
 Time: 3457.000000
@@ -14768,34 +14626,34 @@ Title: Tell Me Why (Evolution Track)
 Artist: Within Temptation
 mtime: 1683808402
 song_end
-2308:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/01 - Let Us Burn.flac
-2309:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/02 - Dangerous (Feat. Howard Jones).flac
-2310:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/03 - And We Run (Feat. Xzibit).flac
-2311:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/04 - Paradise (What About Us) (Feat. Tarja).flac
-2312:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/05 - Edge Of The World.flac
-2313:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/06 - Silver Moonlight.flac
-2314:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/07 - Covered By Roses.flac
-2315:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/08 - Dog Days.flac
-2316:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/09 - Tell Me Why.flac
-2317:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/10 - Whole World Is Watching (Feat. Dave Pirner).flac
-2318:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/01 - Radioactive.flac
-2319:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/02 - Summertime Sadness.flac
-2320:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/03 - Let Her Go.flac
-2321:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/04 - Dirty Dancer.flac
-2322:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/05 - And We Run (Evolution track).flac
-2323:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/06 - Silver Moonlight (Evolution track).flac
-2324:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/07 - Covered By Roses (Evolution track).flac
-2325:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/08 - Tell Me Why (Evolution track).flac
-2326:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/01 - Let Us Burn (Instrumental version).flac
-2327:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/02 - Dangerous (Instrumental version).flac
-2328:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/03 - And We Run (Instrumental version).flac
-2329:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/04 - Paradise (What About Us) (Instrumental version).flac
-2330:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/05 - Edge Of The World (Instrumental version).flac
-2331:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/06 - Silver Moonlight (Instrumental version).flac
-2332:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/07 - Covered By Roses (Instrumental version).flac
-2333:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/08 - Dog Days (Instrumental version).flac
-2334:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/09 - Tell Me Why (Instrumental version).flac
-2335:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/10 - Whole World Is Watching (Instrumental version).flac
+2295:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/01 - Let Us Burn.flac
+2296:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/02 - Dangerous (Feat. Howard Jones).flac
+2297:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/03 - And We Run (Feat. Xzibit).flac
+2298:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/04 - Paradise (What About Us) (Feat. Tarja).flac
+2299:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/05 - Edge Of The World.flac
+2300:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/06 - Silver Moonlight.flac
+2301:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/07 - Covered By Roses.flac
+2302:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/08 - Dog Days.flac
+2303:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/09 - Tell Me Why.flac
+2304:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD1/10 - Whole World Is Watching (Feat. Dave Pirner).flac
+2305:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/01 - Radioactive.flac
+2306:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/02 - Summertime Sadness.flac
+2307:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/03 - Let Her Go.flac
+2308:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/04 - Dirty Dancer.flac
+2309:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/05 - And We Run (Evolution track).flac
+2310:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/06 - Silver Moonlight (Evolution track).flac
+2311:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/07 - Covered By Roses (Evolution track).flac
+2312:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD2/08 - Tell Me Why (Evolution track).flac
+2313:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/01 - Let Us Burn (Instrumental version).flac
+2314:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/02 - Dangerous (Instrumental version).flac
+2315:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/03 - And We Run (Instrumental version).flac
+2316:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/04 - Paradise (What About Us) (Instrumental version).flac
+2317:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/05 - Edge Of The World (Instrumental version).flac
+2318:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/06 - Silver Moonlight (Instrumental version).flac
+2319:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/07 - Covered By Roses (Instrumental version).flac
+2320:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/08 - Dog Days (Instrumental version).flac
+2321:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/09 - Tell Me Why (Instrumental version).flac
+2322:Within Temptation/Albums/Within Temptation - 2014 - Hydra (Limited Deluxe Box Set) (3CD)/CD3/10 - Whole World Is Watching (Instrumental version).flac
 song_begin: Within Temptation/Compilations/Within Temptation - 2013 - The Q-Music Sessions (Compilation)/Within Temptation - The Q-Music Sessions.cue/track0001
 Range: 0-225120
 Time: 2515.920000
@@ -14906,21 +14764,21 @@ Title: Apologize
 Artist: Within Temptation
 mtime: 1683722514
 song_end
-2347:Within Temptation/EP's/Shed My Skin (2021) EP/01 - Shed My Skin.flac
-2348:Within Temptation/EP's/Shed My Skin (2021) EP/02 - The Purge.flac
-2349:Within Temptation/EP's/Shed My Skin (2021) EP/03 - Entertain You.flac
-2350:Within Temptation/EP's/Shed My Skin (2021) EP/04 - Shed My Skin (Instrumental).flac
-2351:Within Temptation/EP's/Shed My Skin (2021) EP/05 - The Purge (Instrumental).flac
-2352:Within Temptation/EP's/Shed My Skin (2021) EP/06 - Entertain You (Instrumental).flac
-2353:Within Temptation/EP's/The Purge [EP] 2020/01. The Purge.flac
-2354:Within Temptation/EP's/The Purge [EP] 2020/02. Entertain You.flac
-2355:Within Temptation/EP's/The Purge [EP] 2020/03. The Purge - Instrumental (Instrumental).flac
-2356:Within Temptation/EP's/The Purge [EP] 2020/04. Entertain You - Instrumental (Instrumental).flac
-2357:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixea) (CDS Maxi) (EP)/Within Temptation - Sinead.ape
-2358:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/01 - Within Temptation - Sinead (Benno de Goeij remix).flac
-2359:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/02 - Within Temptation - Sinead (Myon & Shane 54 Triplet Monster mix).flac
-2360:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/03 - Within Temptation - Sinead (Clashback club mix).flac
-2361:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/04 - Within Temptation - Sinead (Clashback radio edit).flac
+2334:Within Temptation/EP's/Shed My Skin (2021) EP/01 - Shed My Skin.flac
+2335:Within Temptation/EP's/Shed My Skin (2021) EP/02 - The Purge.flac
+2336:Within Temptation/EP's/Shed My Skin (2021) EP/03 - Entertain You.flac
+2337:Within Temptation/EP's/Shed My Skin (2021) EP/04 - Shed My Skin (Instrumental).flac
+2338:Within Temptation/EP's/Shed My Skin (2021) EP/05 - The Purge (Instrumental).flac
+2339:Within Temptation/EP's/Shed My Skin (2021) EP/06 - Entertain You (Instrumental).flac
+2340:Within Temptation/EP's/The Purge [EP] 2020/01. The Purge.flac
+2341:Within Temptation/EP's/The Purge [EP] 2020/02. Entertain You.flac
+2342:Within Temptation/EP's/The Purge [EP] 2020/03. The Purge - Instrumental (Instrumental).flac
+2343:Within Temptation/EP's/The Purge [EP] 2020/04. Entertain You - Instrumental (Instrumental).flac
+2344:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixea) (CDS Maxi) (EP)/Within Temptation - Sinead.ape
+2345:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/01 - Within Temptation - Sinead (Benno de Goeij remix).flac
+2346:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/02 - Within Temptation - Sinead (Myon & Shane 54 Triplet Monster mix).flac
+2347:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/03 - Within Temptation - Sinead (Clashback club mix).flac
+2348:Within Temptation/EP's/Within Temptation - 2011 - Sinead (The Remixes) (EP) [WEB]/04 - Within Temptation - Sinead (Clashback radio edit).flac
 song_begin: Within Temptation/EP's/Within Temptation - 2013 - Paradise (What About Us) (Japanese Edition) (EP)/Within Temptation - Paradise (What About Us) (Japanese Edition).cue/track0001
 Range: 0-321680
 Time: 1270.026000
@@ -14994,15 +14852,15 @@ Title: Pearls Of Light (CD Version)
 Artist: Within Temptation
 mtime: 1683695000
 song_end
-2369:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/01 - Ice Queen (Radio Version).flac
-2370:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/02 - Mother Earth (Leidse Kade Live).flac
-2371:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/03 - Caged (Leidse Kade Live).flac
-2372:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/04 - Ice Queen (Leidse Kade Live).flac
-2373:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/05 - Ice Queen (Demo Version).flac
-2374:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/06 - Caged (Demo Version).flac
-2375:Within Temptation/Singles/Within Temptation - 2001 - Ice Queen (CDS) (2 Track Single)/01 - Ice Queen (Radio Version).flac
-2376:Within Temptation/Singles/Within Temptation - 2001 - Ice Queen (CDS) (2 Track Single)/02 - Mother Earth.flac
-2377:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/02 - Within Temptation - Dark Wings.flac
+2356:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/01 - Ice Queen (Radio Version).flac
+2357:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/02 - Mother Earth (Leidse Kade Live).flac
+2358:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/03 - Caged (Leidse Kade Live).flac
+2359:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/04 - Ice Queen (Leidse Kade Live).flac
+2360:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/05 - Ice Queen (Demo Version).flac
+2361:Within Temptation/Singles/Within Temptation - 2000 - Ice Queen (CDS) (6 Track Single)/06 - Caged (Demo Version).flac
+2362:Within Temptation/Singles/Within Temptation - 2001 - Ice Queen (CDS) (2 Track Single)/01 - Ice Queen (Radio Version).flac
+2363:Within Temptation/Singles/Within Temptation - 2001 - Ice Queen (CDS) (2 Track Single)/02 - Mother Earth.flac
+2364:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/02 - Within Temptation - Dark Wings.flac
 song_begin: Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/Within Temptation - Our Farewell.cue/track0001
 Range: 0-235706
 Time: 235.720000
@@ -15025,22 +14883,22 @@ Title: Dark Wings
 Artist: Within Temptation
 mtime: 1683695856
 song_end
-2380:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/Within Temptation - Our Farewell.cue/track0003
-2381:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/Within Temptation - Our Farewell.cue/track0004
-2382:Within Temptation/Singles/Within Temptation - 2002 - Mother Earth (2 Track Single)/Within Temptation - Mother Earth (single).ape
-2383:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0001
-2384:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0002
-2385:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0003
-2386:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0004
-2387:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0005
-2388:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0001
-2389:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0002
-2390:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0003
-2391:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0004
-2392:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/01 - Stand My Ground [Edit].flac
-2393:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/02 - Overcome.flac
-2394:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/03 - It's The Fear [Demo].flac
-2395:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/04 - Stand My Ground.flac
+2367:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/Within Temptation - Our Farewell.cue/track0003
+2368:Within Temptation/Singles/Within Temptation - 2001 - Our Farewell (Single)/Within Temptation - Our Farewell.cue/track0004
+2369:Within Temptation/Singles/Within Temptation - 2002 - Mother Earth (2 Track Single)/Within Temptation - Mother Earth (single).ape
+2370:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0001
+2371:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0002
+2372:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0003
+2373:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0004
+2374:Within Temptation/Singles/Within Temptation - 2003 - Mother Earth (5 Track Single)/Mother Earth_Edit.cue/track0005
+2375:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0001
+2376:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0002
+2377:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0003
+2378:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single, Special DVDplus Edition)/Stand My Ground (maxiCd)_Edit.cue/track0004
+2379:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/01 - Stand My Ground [Edit].flac
+2380:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/02 - Overcome.flac
+2381:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/03 - It's The Fear [Demo].flac
+2382:Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (4 Track Maxi-Single)/04 - Stand My Ground.flac
 song_begin: Within Temptation/Singles/Within Temptation - 2004 - Stand My Ground (5 Track Limited Edition Single)/Within Temptation - Stand My Ground.cue/track0001
 Range: 0-238866
 Time: 1159.426000
@@ -15096,15 +14954,15 @@ Title: The Swan Song
 Artist: Within Temptation
 mtime: 1683695924
 song_end
-2401:Within Temptation/Singles/Within Temptation - 2005 - Angels (Single)/01 - Within Temptation - Angels (Album Version).flac
-2402:Within Temptation/Singles/Within Temptation - 2005 - Angels (Single)/02 - Within Temptation - Say My Name (Previously Unreleased).flac
-2403:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0001
-2404:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0002
-2405:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0003
-2406:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0004
-2407:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0005
-2408:Within Temptation/Singles/Within Temptation - 2007 - All I Need (2 Track Single)/Within Temptation - All I Need.ape
-2409:Within Temptation/Singles/Within Temptation - 2007 - All I Need (5 Track Single) (Limited Edition) (CDS)/05.Our Solemn Hour (Demo Version).flac
+2388:Within Temptation/Singles/Within Temptation - 2005 - Angels (Single)/01 - Within Temptation - Angels (Album Version).flac
+2389:Within Temptation/Singles/Within Temptation - 2005 - Angels (Single)/02 - Within Temptation - Say My Name (Previously Unreleased).flac
+2390:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0001
+2391:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0002
+2392:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0003
+2393:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0004
+2394:Within Temptation/Singles/Within Temptation - 2005 - Memories (Single)/Memories_Edit.cue/track0005
+2395:Within Temptation/Singles/Within Temptation - 2007 - All I Need (2 Track Single)/Within Temptation - All I Need.ape
+2396:Within Temptation/Singles/Within Temptation - 2007 - All I Need (5 Track Single) (Limited Edition) (CDS)/05.Our Solemn Hour (Demo Version).flac
 song_begin: Within Temptation/Singles/Within Temptation - 2007 - All I Need (5 Track Single) (Limited Edition) (CDS)/Within Temptation - All I Need_Edit.cue/track0001
 Range: 0-244640
 Time: 246.200000
@@ -15160,136 +15018,364 @@ Title: Our Solemn Hour (Demo Version)
 Artist: Within Temptation
 mtime: 1683694937
 song_end
-2415:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Within Temptation - Frozen (EP #2 from The Heart of Everything).ape
-2416:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Data/Videos/Frozen.mpg
-2417:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Data/Videos/The Howling.mpg
-2418:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (2 Track Single)/01 - What Have You Done [Edit].flac
-2419:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (2 Track Single)/02 - What Have You Done.flac
-2420:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0001
-2421:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0002
-2422:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0003
-2423:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0004
-2424:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0005
-2425:Within Temptation/Singles/Within Temptation - 2008 - Forgiven (Single)/Within Temptation - Forgiven.ape
-2426:Within Temptation/Singles/Within Temptation - 2009 - Utopia (CDS) (Single)/Within Temptation - Utopia.ape
-2427:Within Temptation/Singles/Within Temptation - 2011 - Faster (Radio Edit) (Single) [WEB]/Within Temptation - 2011 - Faster (Radio Edit).flac
-2428:Within Temptation/Singles/Within Temptation - 2011 - Faster (Single) [WEB]/01 Faster.flac
-2429:Within Temptation/Singles/Within Temptation - 2011 - Faster (Single) [WEB]/02 Where Is The Edge.flac
-2430:Within Temptation/Singles/Within Temptation - 2011 - Shot In The Dark (Single) [WEB]/01 Shot In The Dark (Radio Edit).flac
-2431:Xandria/2003 - Kill the sun/Kill the sun.cue/track0001
-2432:Xandria/2003 - Kill the sun/Kill the sun.cue/track0002
-2433:Xandria/2003 - Kill the sun/Kill the sun.cue/track0003
-2434:Xandria/2003 - Kill the sun/Kill the sun.cue/track0004
-2435:Xandria/2003 - Kill the sun/Kill the sun.cue/track0005
-2436:Xandria/2003 - Kill the sun/Kill the sun.cue/track0006
-2437:Xandria/2003 - Kill the sun/Kill the sun.cue/track0007
-2438:Xandria/2003 - Kill the sun/Kill the sun.cue/track0008
-2439:Xandria/2003 - Kill the sun/Kill the sun.cue/track0009
-2440:Xandria/2003 - Kill the sun/Kill the sun.cue/track0010
-2441:Xandria/2004 - Ravenheart/13. Eversleeping (single version).flac
-2442:Xandria/2004 - Ravenheart/Ravenheart.cue/track0001
-2443:Xandria/2004 - Ravenheart/Ravenheart.cue/track0002
-2444:Xandria/2004 - Ravenheart/Ravenheart.cue/track0003
-2445:Xandria/2004 - Ravenheart/Ravenheart.cue/track0004
-2446:Xandria/2004 - Ravenheart/Ravenheart.cue/track0005
-2447:Xandria/2004 - Ravenheart/Ravenheart.cue/track0006
-2448:Xandria/2004 - Ravenheart/Ravenheart.cue/track0007
-2449:Xandria/2004 - Ravenheart/Ravenheart.cue/track0008
-2450:Xandria/2004 - Ravenheart/Ravenheart.cue/track0009
-2451:Xandria/2004 - Ravenheart/Ravenheart.cue/track0010
-2452:Xandria/2004 - Ravenheart/Ravenheart.cue/track0011
-2453:Xandria/2004 - Ravenheart/Ravenheart.cue/track0012
-2454:Xandria/2004 - Ravenheart/Ravenheart.cue/track0014
-2455:Xandria/2004 - Ravenheart/Ravenheart.cue/track0015
-2456:Xandria/2004 - Ravenheart/Ravenheart.cue/track0016
-2457:Xandria/2005 - India/India.cue/track0001
-2458:Xandria/2005 - India/India.cue/track0002
-2459:Xandria/2005 - India/India.cue/track0003
-2460:Xandria/2005 - India/India.cue/track0004
-2461:Xandria/2005 - India/India.cue/track0005
-2462:Xandria/2005 - India/India.cue/track0006
-2463:Xandria/2005 - India/India.cue/track0007
-2464:Xandria/2005 - India/India.cue/track0008
-2465:Xandria/2005 - India/India.cue/track0009
-2466:Xandria/2005 - India/India.cue/track0010
-2467:Xandria/2005 - India/India.cue/track0011
-2468:Xandria/2005 - India/India.cue/track0012
-2469:Xandria/2005 - India/India.cue/track0013
-2470:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0001
-2471:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0002
-2472:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0003
-2473:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0004
-2474:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0005
-2475:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0006
-2476:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0007
-2477:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0008
-2478:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0009
-2479:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0010
-2480:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0011
-2481:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0012
-2482:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0001
-2483:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0002
-2484:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0003
-2485:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0004
-2486:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0005
-2487:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0006
-2488:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0007
-2489:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0008
-2490:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0009
-2491:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0010
-2492:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0011
-2493:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0012
-2494:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0013
-2495:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0014
-2496:Xandria/2014 - Sacrificium/Sacrificium.cue/track0001
-2497:Xandria/2014 - Sacrificium/Sacrificium.cue/track0002
-2498:Xandria/2014 - Sacrificium/Sacrificium.cue/track0003
-2499:Xandria/2014 - Sacrificium/Sacrificium.cue/track0004
-2500:Xandria/2014 - Sacrificium/Sacrificium.cue/track0005
-2501:Xandria/2014 - Sacrificium/Sacrificium.cue/track0006
-2502:Xandria/2014 - Sacrificium/Sacrificium.cue/track0007
-2503:Xandria/2014 - Sacrificium/Sacrificium.cue/track0008
-2504:Xandria/2014 - Sacrificium/Sacrificium.cue/track0009
-2505:Xandria/2014 - Sacrificium/Sacrificium.cue/track0010
-2506:Xandria/2014 - Sacrificium/Sacrificium.cue/track0011
-2507:Xandria/2014 - Sacrificium/Sacrificium.cue/track0012
-2508:Xandria/2014 - Sacrificium/Sacrificium.cue/track0013
-2509:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0001
-2510:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0002
-2511:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0003
-2512:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0004
-2513:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0005
-2514:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0006
-2515:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0007
-2516:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0001
-2517:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0002
-2518:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0003
-2519:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0004
-2520:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0005
-2521:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0006
-2522:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0007
-2523:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0008
-2524:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0009
-2525:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0010
-2526:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0011
-2527:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0012
-2528:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0013
-2529:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0014
-2530:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0015
-2531:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0016
-2532:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0017
-2533:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0018
-2534:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0001
-2535:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0002
-2536:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0003
-2537:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0004
-2538:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0005
-2539:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0006
-2540:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0007
-2541:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0008
-2542:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0009
-2543:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0010
-2544:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0011
-2545:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0012
-2546:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0013
+2402:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Within Temptation - Frozen (EP #2 from The Heart of Everything).ape
+2403:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Data/Videos/Frozen.mpg
+2404:Within Temptation/Singles/Within Temptation - 2007 - Frozen (CDM Premium Single)/Data/Videos/The Howling.mpg
+2405:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (2 Track Single)/01 - What Have You Done [Edit].flac
+2406:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (2 Track Single)/02 - What Have You Done.flac
+2407:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0001
+2408:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0002
+2409:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0003
+2410:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0004
+2411:Within Temptation/Singles/Within Temptation - 2007 - What Have You Done (5 Track Single)/Within Temptation - What Have You Done_Edit.cue/track0005
+2412:Within Temptation/Singles/Within Temptation - 2008 - Forgiven (Single)/Within Temptation - Forgiven.ape
+2413:Within Temptation/Singles/Within Temptation - 2009 - Utopia (CDS) (Single)/Within Temptation - Utopia.ape
+2414:Within Temptation/Singles/Within Temptation - 2011 - Faster (Radio Edit) (Single) [WEB]/Within Temptation - 2011 - Faster (Radio Edit).flac
+2415:Within Temptation/Singles/Within Temptation - 2011 - Faster (Single) [WEB]/01 Faster.flac
+2416:Within Temptation/Singles/Within Temptation - 2011 - Faster (Single) [WEB]/02 Where Is The Edge.flac
+2417:Within Temptation/Singles/Within Temptation - 2011 - Shot In The Dark (Single) [WEB]/01 Shot In The Dark (Radio Edit).flac
+2418:Xandria/2003 - Kill the sun/Kill the sun.cue/track0001
+2419:Xandria/2003 - Kill the sun/Kill the sun.cue/track0002
+2420:Xandria/2003 - Kill the sun/Kill the sun.cue/track0003
+2421:Xandria/2003 - Kill the sun/Kill the sun.cue/track0004
+2422:Xandria/2003 - Kill the sun/Kill the sun.cue/track0005
+2423:Xandria/2003 - Kill the sun/Kill the sun.cue/track0006
+2424:Xandria/2003 - Kill the sun/Kill the sun.cue/track0007
+2425:Xandria/2003 - Kill the sun/Kill the sun.cue/track0008
+2426:Xandria/2003 - Kill the sun/Kill the sun.cue/track0009
+2427:Xandria/2003 - Kill the sun/Kill the sun.cue/track0010
+2428:Xandria/2004 - Ravenheart/13. Eversleeping (single version).flac
+2429:Xandria/2004 - Ravenheart/Ravenheart.cue/track0001
+2430:Xandria/2004 - Ravenheart/Ravenheart.cue/track0002
+2431:Xandria/2004 - Ravenheart/Ravenheart.cue/track0003
+2432:Xandria/2004 - Ravenheart/Ravenheart.cue/track0004
+2433:Xandria/2004 - Ravenheart/Ravenheart.cue/track0005
+2434:Xandria/2004 - Ravenheart/Ravenheart.cue/track0006
+2435:Xandria/2004 - Ravenheart/Ravenheart.cue/track0007
+2436:Xandria/2004 - Ravenheart/Ravenheart.cue/track0008
+2437:Xandria/2004 - Ravenheart/Ravenheart.cue/track0009
+2438:Xandria/2004 - Ravenheart/Ravenheart.cue/track0010
+2439:Xandria/2004 - Ravenheart/Ravenheart.cue/track0011
+2440:Xandria/2004 - Ravenheart/Ravenheart.cue/track0012
+2441:Xandria/2004 - Ravenheart/Ravenheart.cue/track0014
+2442:Xandria/2004 - Ravenheart/Ravenheart.cue/track0015
+2443:Xandria/2004 - Ravenheart/Ravenheart.cue/track0016
+2444:Xandria/2005 - India/India.cue/track0001
+2445:Xandria/2005 - India/India.cue/track0002
+2446:Xandria/2005 - India/India.cue/track0003
+2447:Xandria/2005 - India/India.cue/track0004
+2448:Xandria/2005 - India/India.cue/track0005
+2449:Xandria/2005 - India/India.cue/track0006
+2450:Xandria/2005 - India/India.cue/track0007
+2451:Xandria/2005 - India/India.cue/track0008
+2452:Xandria/2005 - India/India.cue/track0009
+2453:Xandria/2005 - India/India.cue/track0010
+2454:Xandria/2005 - India/India.cue/track0011
+2455:Xandria/2005 - India/India.cue/track0012
+2456:Xandria/2005 - India/India.cue/track0013
+2457:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0001
+2458:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0002
+2459:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0003
+2460:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0004
+2461:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0005
+2462:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0006
+2463:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0007
+2464:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0008
+2465:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0009
+2466:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0010
+2467:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0011
+2468:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0012
+2469:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0001
+2470:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0002
+2471:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0003
+2472:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0004
+2473:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0005
+2474:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0006
+2475:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0007
+2476:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0008
+2477:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0009
+2478:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0010
+2479:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0011
+2480:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0012
+2481:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0013
+2482:Xandria/2012 - Neverworld's end/Neverworld's end.cue/track0014
+2483:Xandria/2014 - Sacrificium/Sacrificium.cue/track0001
+2484:Xandria/2014 - Sacrificium/Sacrificium.cue/track0002
+2485:Xandria/2014 - Sacrificium/Sacrificium.cue/track0003
+2486:Xandria/2014 - Sacrificium/Sacrificium.cue/track0004
+2487:Xandria/2014 - Sacrificium/Sacrificium.cue/track0005
+2488:Xandria/2014 - Sacrificium/Sacrificium.cue/track0006
+2489:Xandria/2014 - Sacrificium/Sacrificium.cue/track0007
+2490:Xandria/2014 - Sacrificium/Sacrificium.cue/track0008
+2491:Xandria/2014 - Sacrificium/Sacrificium.cue/track0009
+2492:Xandria/2014 - Sacrificium/Sacrificium.cue/track0010
+2493:Xandria/2014 - Sacrificium/Sacrificium.cue/track0011
+2494:Xandria/2014 - Sacrificium/Sacrificium.cue/track0012
+2495:Xandria/2014 - Sacrificium/Sacrificium.cue/track0013
+2496:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0001
+2497:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0002
+2498:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0003
+2499:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0004
+2500:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0005
+2501:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0006
+2502:Xandria/2015 - Fire & Ashes/Fire & Ashes.cue/track0007
+2503:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0001
+2504:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0002
+2505:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0003
+2506:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0004
+2507:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0005
+2508:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0006
+2509:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0007
+2510:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0008
+2511:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0009
+2512:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0010
+2513:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0011
+2514:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0012
+2515:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0013
+2516:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0014
+2517:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0015
+2518:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0016
+2519:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0017
+2520:Xandria/2017 - Theater Of Dimensions/Theater Of Dimensions.cue/track0018
+2521:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0001
+2522:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0002
+2523:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0003
+2524:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0004
+2525:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0005
+2526:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0006
+2527:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0007
+2528:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0008
+2529:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0009
+2530:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0010
+2531:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0011
+2532:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0012
+2533:Xandria/2023 - The Wonders Still Awaiting/The Wonders Still Awaiting.cue/track0013
+2534:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/01 Sleepwalker.flac
+2535:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/02 Washington Is Next!.flac
+2536:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/03 Never Walk Alone..A Call to Arms.flac
+2537:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/04 United Abominations.flac
+2538:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/05 Gears of War.flac
+2539:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/06 Blessed Be the Dead.flac
+2540:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/07 Play for Blood.flac
+2541:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/08 À tout le monde (Set Me Free) [feat. Cristina Scabbia].flac
+2542:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/09 Amerikhastan.flac
+2543:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/10 You're Dead.flac
+2544:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/11 Burnt Ice.flac
+2545:Megadeth - 2007 - United Abominations (2019 - Remaster) [FLAC]/12 Out on the Tiles (Japan Edit).flac
+2546:Amaranthe/2018 - Helix [restored]/Amaranthe - Helix (16 tracks version).flac.cue/track0007
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0004
+Range: 804893-1104306
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 04
+Title: Carmilla
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0006
+Range: 1343266-1606200
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 06
+Title: Figlio Della Luna
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+2549:Amaranthe/2018 - Helix [restored]/Amaranthe - Helix (16 tracks version).flac.cue/track0007
+2550:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 1/04 - Blu-Bird.flac
+2551:Blackbriar/2019 - Snow White and Rose Red (feat. Ulli Perhonen)/03 - Blackbriar - Snow White and Rose Red (A Cappella).flac
+2552:NieR Automata Original Soundtrack [2017]/CD 1/07. Keigo Hoashi - Amusement Park.flac
+2553:Mili Ender Lilies OST/Mili - 16 - Grudge.flac
+song_begin: Epica/Albums/2005 - Consign To Oblivion/2005 - Consign To Oblivion (Limited Edition)/Epica - Consign To Oblivion (Limited Edition).cue/track0005
+Range: 943560-1185066
+Time: 3160.000000
+Date: 2005
+Album: Consign To Oblivion (Limited Edition)
+Track: 05
+Title: Blank Infinity
+Artist: Epica
+mtime: 1683674390
+song_end
+song_begin: Epica/Albums/2005 - Consign To Oblivion/2005 (2015) - Consign To Oblivion (Expanded Edition)/2005 (2015) - Consign To Oblivion (Expanded Edition) Chapter 2/Epica - Consign To Oblivion (Expanded Edition) Chapter 2.cue/track0011
+Range: 3080306-3328546
+Time: 3825.640000
+Date: 2015
+Album: Consign To Oblivion (Expanded Edition) Chapter 2
+Track: 11
+Title: Solitary Ground - Single Version
+Artist: Epica
+mtime: 1683674005
+song_end
+song_begin: Epica/Singles/2004 - Feint/Epica - Feint.cue/track0001
+Range: 0-259666
+Time: 1139.226000
+Date: 2004
+Album: Feint
+Track: 01
+Title: Feint
+Artist: Epica
+mtime: 1683681742
+song_end
+2557:Heilung/Drif (2022)/04 - Urbani.flac
+2558:Xandria/2007 - Salome - The seventh veil/Salome - The seventh veil.cue/track0003
+song_begin: Theatres des Vampires/2016 - Candyland/Theatres des Vampires - Candyland.cue/track0001
+Range: 0-222413
+Time: 2403.080000
+Genre: gothic metal
+Date: 2016
+Album: Candyland
+Track: 01
+Title: 01. Morgana Effect
+Artist: Theatres des Vampires
+Disc: 1
+mtime: 1683622017
+song_end
+2560:Mili Ender Lilies OST/Mili - 33 - Mother - Intro.flac
+2561:Blackbriar/2021 - The Cause of Shipwreck/08 - Selkie.flac
+2562:Amaranthe/2013 - The Nexus [restored]/Amaranthe - The Nexus (16 tracks version).flac.cue/track0015
+2563:Nightwish [restored]/2007 - Dark Passion Play/Dark Passion Play.cue/track0001
+song_begin: Epica/Singles/2017 - The Solace System/Epica - The Solace System.cue/track0001
+Range: 0-279040
+Time: 1797.093000
+Date: 2017
+Album: The Solace System
+Track: 01
+Title: The Solace System
+Artist: Epica
+mtime: 1683681943
+song_end
+song_begin: Elysion/2014 - Someplace Better [declipped]/Elysion - Someplace Better.cue/track0010
+Range: 1978586-2187920
+Time: 2827.493000
+Genre: Gothic Metal
+Date: 2014
+Album: Someplace Better
+Track: 10
+Title: In Despair
+Artist: Elysion
+mtime: 1683647341
+song_end
+song_begin: Elysion/2009 - Silent Scr3am [declipped]/Elysion - Silent Scr3am.cue/track0002
+Range: 253493-484506
+Time: 2632.506000
+Genre: Gothic Metal
+Date: 2009
+Album: Silent Scr3am
+Track: 02
+Title: Killing My Dreams
+Artist: Elysion
+mtime: 1683647346
+song_end
+song_begin: Elysion/2014 - Someplace Better [declipped]/Elysion - Someplace Better.cue/track0002
+Range: 199066-386040
+Time: 2827.493000
+Genre: Gothic Metal
+Date: 2014
+Album: Someplace Better
+Track: 02
+Title: Someplace Better
+Artist: Elysion
+mtime: 1683647341
+song_end
+2568:Elysion/2023- Bring Out Your Dead/09 - Blue Seasons.flac
+2569:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 1/06 - Cold Steel Coffin.flac
+2570:NieR Automata Original Soundtrack [2017]/CD 3/07. Keiichi Okabe - Song Of The Ancients - Atonement.flac
+2571:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 1/05 - Song Of The Ancients - Popola.flac
+2572:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 2/02 - Song Of The Ancients - Devola.flac
+2573:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 3/04 - Song Of The Ancients - Hollow Dreams.flac
+2574:NieR Replicant ver.1.22474487139... Original Soundtrack [2021]/CD 3/08 - Song Of The Ancients - Fate.flac
+2575:Blackbriar/2019 - Our Mortal Remains/05 - Until Eternity (Orchestral Version).flac
+2576:NieR Automata Original Soundtrack [2017]/CD 2/06. Keigo Hoashi - Forest Kingdom.flac
+2577:NieR Automata Original Soundtrack [2017]/CD 3/01. Keigo Hoashi - Rebirth & Hope.flac
+2578:NieR Automata Original Soundtrack [2017]/CD 3/02. Keigo Hoashi, Keiichi Okabe - War & War.flac
+2579:NieR Automata Original Soundtrack [2017]/CD 3/06. Keigo Hoashi - Vague Hope - Spring Rain.flac
+2580:NieR Automata Original Soundtrack [2017]/CD 3/09. Keigo Hoashi, Kakeru Ishihama - Emil - Despair.flac
+2581:NieR Automata Original Soundtrack [2017]/CD 3/11. Keiichi Okabe, Keigo Hoashi - Alien Manifestation.flac
+2582:NieR Automata Original Soundtrack [2017]/CD 3/13. Keigo Hoashi - Bipolar Nightmare.flac
+2583:NieR Automata Original Soundtrack [2017]/CD 2/01. Keiichi Okabe - Significance.flac
+2584:NieR Automata Original Soundtrack [2017]/CD 2/02. Keiichi Okabe - City Ruins - Shade.flac
+2585:NieR Automata Original Soundtrack [2017]/CD 2/07. Keigo Hoashi, Keiichi Okabe - Dark Colossus - Kaiju.flac
+2586:NieR Automata Original Soundtrack [2017]/CD 2/08. Keigo Hoashi - Copied City.flac
+2587:NieR Automata Original Soundtrack [2017]/CD 2/03. Keiichi Okabe - End Of The Unknown.flac
+2588:NieR Automata Original Soundtrack [2017]/CD 2/15. Keiichi Okabe - Weight Of The World Kowaretasekainouta.flac
+2589:NieR Automata Original Soundtrack [2017]/CD 1/01. Keiichi Okabe - Significance - Nothing.flac
+2590:NieR Automata Original Soundtrack [2017]/CD 1/02. Keiichi Okabe - City Ruins - Rays Of Light.flac
+2591:NieR Automata Original Soundtrack [2017]/CD 1/04. Kuniyuki Takahashi - Memories Of Dust.flac
+2592:NieR Automata Original Soundtrack [2017]/CD 1/05. Keiichi Okabe - Birth Of A Wish.flac
+2593:NieR Automata Original Soundtrack [2017]/CD 1/06. Keiichi Okabe - The Color Of Depression.flac
+2594:NieR Automata Original Soundtrack [2017]/CD 1/08. Keigo Hoashi - A Beautiful Song.flac
+2595:NieR Automata Original Soundtrack [2017]/CD 1/10. Keigo Hoashi, Keiichi Okabe - Grandma - Destruction.flac
+2596:NieR Automata Original Soundtrack [2017]/CD 1/14. Keigo Hoashi - Vague Hope - Cold Rain.flac
+2597:NieR Automata Original Soundtrack [2017]/CD 1/15. Keiichi Okabe - Weight Of The World English Version.flac
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0001
+Range: 0-324986
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 01
+Title: Keeper Of Secrets
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0004
+Range: 804893-1104306
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 04
+Title: Carmilla
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0005
+Range: 1104306-1343266
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 05
+Title: Sangue
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+song_begin: Theatres des Vampires/2011 - Moonlight Waltz/Theatres des Vampires - Moonlight Waltz.cue/track0006
+Range: 1343266-1606200
+Time: 3445.786000
+Genre: Vampiric Metal
+Date: 2011
+Album: Moonlight Waltz
+Track: 06
+Title: Figlio Della Luna
+Artist: Theatres des Vampires
+mtime: 1683688216
+song_end
+song_begin: Theatres des Vampires/2016 - Candyland/Theatres des Vampires - Candyland.cue/track0004
+Range: 667173-916533
+Time: 2403.080000
+Genre: gothic metal
+Date: 2016
+Album: Candyland
+Track: 04
+Title: 04. Parasomnia
+Artist: Theatres des Vampires
+Disc: 1
+mtime: 1683622017
+song_end
+song_begin: UnSun/The End of Life 2008/Unsun - The End Of Life.cue/track0001
+Range: 0-213253
+Time: 2541.053000
+Genre: Gothic Metal
+Date: 2008
+Album: The End Of Life
+Track: 01
+Title: Whispers
+Artist: Unsun
+mtime: 1683622233
+song_end
 playlist_end
