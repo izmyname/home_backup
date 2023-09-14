@@ -81,6 +81,9 @@ bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR
 #run tty-clock to display time in a terminal.
 bindsym $mod+t exec --no-startup-id $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
 
+#open ncmpcpp - an MPD ncurses client
+bindsym $mod+m exec --no-startup-id $TERMINAL -e ncmpcpp
+
 #take screenshots
 bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
