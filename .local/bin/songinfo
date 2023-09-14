@@ -1,7 +1,7 @@
 #!/bin/sh
 
 music_dir="$HOME/mus"
-previewdir="$HOME/.cache/ncmpcpp_previews"
+previewdir="$HOME/.local/share/ncmpcpp_previews"
 filename="$(mpc --format "$music_dir"/%file% current)"
 previewname="$previewdir/$(mpc --format %album% current | base64).png"
 
