@@ -7,7 +7,7 @@ visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
 visualizer_look = "+|"
-visualizer_color = 56, 56, 92, 93
+visualizer_color = cyan, blue, yellow
 lyrics_fetchers = azlyrics, genius, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
 
 [header]
