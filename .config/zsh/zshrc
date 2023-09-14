@@ -20,6 +20,9 @@ unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
+#Add local bin to $PATH
+export PATH=$HOME/.local/bin:$PATH
+
 # Custom prompt
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%B%{$fg[green]%}%n@%m%{$reset_color%} %B%{$fg[blue]%}%~ %{$reset_color%}%B%{$fg[red]%}>%{$reset_color%}%b% "
@@ -42,3 +45,5 @@ alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
 cal
 
 cat ~/doc/to-do
+
+cat ~/doc/futurama-releases-season8
