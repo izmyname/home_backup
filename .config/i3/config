@@ -23,8 +23,8 @@ exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggl
 exec --no-startup-id udiskie -t &
 exec --no-startup-id dunst 
 exec --no-startup-id transmission-daemon
-exec --no-startup-id playerctld daemon
 exec_always --no-startup-id unclutter &
+exec --no-startup-id mpd-notification -H localhost -m /home/arch-mage/mus -o true -p 6600 -s 150 -t 10 &
 
 #mpd-mpc remote control
 bindsym XF86AudioNext exec --no-startup-id mpc next
