@@ -19,8 +19,6 @@ kitty theme - noirblaze
 
 ln -s ~/.config/gtk-2.0/gtkrc-2.0 ~/.gtkrc-2.0
 
-ln -s ~/.config/feh/fehbg ~/.fehbg
-
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 
 ln -s ~/.config/nvidia/nvidia-settings-rc ~/.nvidia-settings-rc
