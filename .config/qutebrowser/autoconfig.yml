@@ -97,7 +97,11 @@ settings:
     global:
     - en-US
     - ru-RU
+  tabs.last_close:
+    global: startpage
   tabs.position:
     global: top
+  url.default_page:
+    global: qute://start
   zoom.default:
     global: 125%
