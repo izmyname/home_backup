@@ -2,7 +2,6 @@ systemctl enable --now --user *
 
 pipewire-pulse.service
 pipewire.service
-mpd.service
 
 #Enable after logging in both protonmail interactive interface and mail client
 
