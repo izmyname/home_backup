@@ -24,7 +24,7 @@ exec --no-startup-id udiskie -t &
 exec --no-startup-id dunst 
 exec --no-startup-id transmission-daemon
 exec_always --no-startup-id unclutter &
-exec --no-startup-id mpd-notification -H localhost -m /home/arch-mage/mus -o true -p 6600 -s 150 -t 10 &
+exec --no-startup-id mpd;mpd-notification -H localhost -m /home/arch-mage/mus -o true -p 6600 -s 150 -t 10 &
 
 #mpd-mpc remote control
 bindsym XF86AudioNext exec --no-startup-id mpc next
