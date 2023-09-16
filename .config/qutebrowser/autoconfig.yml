@@ -17,8 +17,6 @@ settings:
         <Alt+m>: spawn mpv {url}
         <Alt+n>: hint links spawn mpv {hint-url}
         <Alt+x>: history-clear
-        J: tab-prev
-        K: tab-next
   colors.tabs.bar.bg:
     global: '#555555'
   colors.tabs.even.bg:
