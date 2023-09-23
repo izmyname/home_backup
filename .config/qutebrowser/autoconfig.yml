@@ -38,6 +38,8 @@ settings:
   content.javascript.clipboard:
     aur.archlinux.org: access
     github.com: access
+  content.javascript.enabled:
+    global: true
   content.notifications.enabled:
     https://mail.proton.me: true
     https://webchef.ru: false
@@ -52,6 +54,8 @@ settings:
     global: ~/web
   downloads.location.suggestion:
     global: both
+  downloads.position:
+    global: bottom
   editor.command:
     global:
     - kitty
@@ -68,7 +72,7 @@ settings:
     - ranger
     - --choosedir={}
   fileselect.handler:
-    global: external
+    global: default
   fileselect.multiple_files.command:
     global:
     - kitty
