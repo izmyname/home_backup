@@ -32,7 +32,6 @@ PS1="%B%{$fg[red]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%B%{$fg[green]%}%n@%m
 alias "ls=ls --color=auto"
 alias "grep=grep --color=auto"
 alias icat="kitty +kitten icat"
-alias fm="ranger"
 alias cal='cal -m'
 alias zzz='systemctl suspend'
 alias ZZZ='poweroff'
