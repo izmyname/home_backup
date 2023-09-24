@@ -210,12 +210,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-#Disable screen edge borders
+#gaps and borders
 hide_edge_borders both
-
-#No window titlebar and borders
-default_border none
+default_border pixel 1
 default_floating_border normal
+#gaps outer 5
+gaps inner 10
 
 #Default_orientation horizontal|vertical|auto
 default_orientation auto
