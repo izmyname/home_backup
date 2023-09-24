@@ -45,5 +45,3 @@ alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
 cal
 
 cat ~/doc/to-do
-
-cat ~/doc/futurama-releases-season8

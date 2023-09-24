@@ -15,9 +15,9 @@ Terminal (kitty), browser (qutebrowser) and some other programs are set in /etc/
 
 kitty theme - noirblaze
 
-<b>Symlinks:</b>
+<b>The setup uses polybar 3.7 (currently available as polybar-git for arch) due the new tray implementation which doesn't break corners.</b>
 
-ln -s ~/.config/gtk-2.0/gtkrc-2.0 ~/.gtkrc-2.0
+<b>Symlinks:</b>
 
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 

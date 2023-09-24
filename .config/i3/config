@@ -216,6 +216,8 @@ default_border none
 default_floating_border normal
 #gaps outer 5
 gaps inner 10
+gaps bottom 30
+gaps top 30
 
 #Default_orientation horizontal|vertical|auto
 default_orientation auto
