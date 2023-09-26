@@ -1,9 +1,0 @@
-
-[Desktop Entry]
-Name=Python
-Comment=Programming language and calculator
-Exec=python
-Icon=accessories-calculator
-Terminal=true
-Type=Application
-Categories=Utility;

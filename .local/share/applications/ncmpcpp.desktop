@@ -1,9 +1,0 @@
-
-[Desktop Entry]
-Name=NCurses Music Player Client (Plus Plus)
-Comment=Featureful ncurses based MPD client inspired by ncmpc
-Exec=ncmpcpp 
-Icon=com.deepin.Music
-Terminal=true
-Type=Application
-Categories=Audio;Utility;
