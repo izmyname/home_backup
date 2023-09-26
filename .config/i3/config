@@ -65,9 +65,6 @@ bindsym $mod+Shift+Escape exec --no-startup-id reboot
 #Wifi and bluetooth killswitch
 bindcode $mod+96 exec --no-startup-id rfkill toggle all
 
-#open Ranger File manager
-bindsym $mod+z exec --no-startup-id $TERMINAL -e ranger 
-
 #open web browser
 bindsym $mod+x exec --no-startup-id $BROWSER
 
