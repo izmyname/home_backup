@@ -5,8 +5,8 @@ set $mod Mod4
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
 #program launcher
-bindsym $mod+d exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
-#bindcode $mod+40 exec "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
+bindcode $mod+21 exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
+bindcode $mod+40 exec "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
 
 
 #feh wallpaper
