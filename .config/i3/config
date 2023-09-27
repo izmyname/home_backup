@@ -5,7 +5,9 @@ set $mod Mod4
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
 #program launcher
-bindcode $mod+40 exec "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
+bindsym $mod+d exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
+#bindcode $mod+40 exec "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
+
 
 #feh wallpaper
 exec_always --no-startup-id feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/backgrounds/wallpaper_27.png'
