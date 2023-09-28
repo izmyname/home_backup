@@ -10,7 +10,7 @@ set $feh_wallpaper  feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/back
 set $i3lock  xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
 set $statusbar $HOME/.local/bin/launch.sh
 set $sysmonitor $TERMINAL -e htop
-
+set $filemanager $TERMINAL -e nwrap 
 
 #autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -38,6 +38,7 @@ bindcode $mod+96 exec --no-startup-id rfkill toggle all
 bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "$HOME/screenshot-$(date)"
+bindsym $mod+z exec --no-startup-id $filemanager
 
 #mpd-mpc remote control
 bindsym XF86AudioNext exec --no-startup-id mpc next
