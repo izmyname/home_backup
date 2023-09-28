@@ -3,7 +3,7 @@ font pango: monospace 12
 
 #set local variables in addition to /etc/environment
 set $mod Mod4
-set $menu "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
+set $menu  $TERMINAL -e $HOME/.config/nnn/plugins/launch
 set $mail claws-mail
 set $clock  $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
 set $feh_wallpaper  feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/backgrounds/wallpaper_27.png'
@@ -22,7 +22,6 @@ exec --no-startup-id $i3lock
 
 #keyboard shortcuts
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
-bindcode $mod+21 exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
 bindcode $mod+40 exec $menu 
 bindsym $mod+x exec --no-startup-id $BROWSER
 bindsym $mod+c exec --no-startup-id $mail 
