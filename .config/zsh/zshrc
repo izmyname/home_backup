@@ -36,6 +36,7 @@ export RCLONE_VERBOSE=1
 alias icat="kitty +kitten icat"
 
 #NNN file manager
+#variables also have to be modified in ~/.local/bin/nwrap after each update.
 if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
     source /usr/share/nnn/quitcd/quitcd.bash_sh_zsh
 fi
