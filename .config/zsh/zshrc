@@ -27,7 +27,7 @@ alias lock='loginctl lock-session'
 
 #prompt
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}(%D{%a %d %b} %D{%H:%M})%{$reset_color%}%B%{$fg[green]%}%n@%m%{$reset_color%} %B%{$fg[blue]%}%~ %{$reset_color%}%B%{$fg[red]%}>%{$reset_color%}%b% "
+PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
 
 #rclone
 export RCLONE_VERBOSE=1
