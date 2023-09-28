@@ -1,31 +1,44 @@
-#win key as mod key.
+#mod key (win key)
 set $mod Mod4
-
-#terminal #(TERMINAL= from /etc/environment)
-bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
-
-#program launcher
-bindcode $mod+21 exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
-bindcode $mod+40 exec "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
-
-
-#feh wallpaper
-exec_always --no-startup-id feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/backgrounds/wallpaper_27.png'
-
-#lockscreen - xss-lock and i3lock. Use loginctl lock-session to lock screen manually.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
 
 #font for window titles.
 font pango: monospace 12 
 
+#set local variables in addition to /etc/environment
+set $menu "rofi -modi drun,run -show drun -theme android_notification -font monospace 12 -icon-theme Papirus-Dark -show-icons"
+set $mail claws-mail
+set $clock  $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
+set $feh_wallpaper  feh --no-fehbg --bg-scale
+set $i3lock  xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
+ 
+
 #autostart
 exec --no-startup-id dex --autostart --environment i3
+exec_always --no-startup-id $feh_wallpaper '/home/arch-mage/.local/share/backgrounds/wallpaper_27.png'
 exec_always --no-startup-id $HOME/.local/bin/launch.sh
 exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
 exec --no-startup-id udiskie &
-exec --no-startup-id dunst &
+exec --no-startup-id dunst & 
 exec --no-startup-id transmission-daemon
 exec_always --no-startup-id unclutter &
+exec --no-startup-id $i3lock
+
+#keyboard shortcuts
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
+bindcode $mod+21 exec $TERMINAL -e $HOME/.config/nnn/plugins/launch
+bindcode $mod+40 exec $menu 
+bindsym $mod+x exec --no-startup-id $BROWSER
+bindsym $mod+c exec --no-startup-id $mail 
+bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR 
+bindsym $mod+t exec --no-startup-id $clock
+bindsym $mod+q kill
+bindsym --release $mod+Shift+q exec --no-startup-id  xkill 
+bindsym $mod+Escape exec --no-startup-id systemctl suspend
+bindsym $mod+Shift+Escape exec --no-startup-id reboot
+bindcode $mod+96 exec --no-startup-id rfkill toggle all
+bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
+bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/screenshot-$(date)"
 
 #mpd-mpc remote control
 bindsym XF86AudioNext exec --no-startup-id mpc next
@@ -37,11 +50,10 @@ bindcode $mod+69 exec --no-startup-id brightnessctl set +10%
 bindcode $mod+68 exec --no-startup-id brightnessctl set 10%-
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle 
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -50,42 +62,6 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-
-
-#kill focused window
-bindsym $mod+q kill
-
-#use xkill to kill frozen window
-bindsym --release $mod+Shift+q exec --no-startup-id  xkill 
-
-#suspend to RAM (sleep)
-bindsym $mod+Escape exec --no-startup-id systemctl suspend
-
-#reboot
-bindsym $mod+Shift+Escape exec --no-startup-id reboot
-
-#Wifi and bluetooth killswitch
-bindcode $mod+96 exec --no-startup-id rfkill toggle all
-
-#open web browser
-bindsym $mod+x exec --no-startup-id $BROWSER
-
-#open email client
-bindsym $mod+c exec --no-startup-id claws-mail 
-
-#open text editor
-bindsym $mod+n exec --no-startup-id $TERMINAL -e $EDITOR 
-
-#run tty-clock to display time in a terminal.
-bindsym $mod+t exec --no-startup-id $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
-
-#open ncmpcpp - an MPD ncurses client
-bindsym $mod+m exec --no-startup-id $TERMINAL -e ncmpcpp 
-
-#take screenshots
-bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/screenshot-$(date)"
 
 # change focus
 bindsym $mod+h focus left
@@ -213,7 +189,6 @@ bindsym $mod+r mode "resize"
 hide_edge_borders both
 default_border none
 default_floating_border normal
-#gaps outer 5
 gaps inner 10
 gaps bottom 30
 gaps top 35
