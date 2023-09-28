@@ -51,8 +51,11 @@ export NNN_FIFO='/tmp/nnn.fifo'
 alias n='n -P p'
 alias nnn='n -P p'
 
-#MPC - MPD remote
+#mpc - mpd remote
 alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
+
+#mpd-notification
+alias mpd-notification="mpd-notification -H localhost -p 6600 -m /home/arch-mage/mus -o -s 200 -t 10"
 
 #tty-clock
 alias tty-clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
