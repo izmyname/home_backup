@@ -59,7 +59,10 @@ alias mpd-notification="mpd-notification -H localhost -p 6600 -m /home/arch-mage
 
 #tty-clock
 alias tty-clock='tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"'
-alias clock=tty-clock 
+alias clock=tty-clock
+
+#inxi
+alias inxi="inxi -c11"
 
 #display on startup
 cal
