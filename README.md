@@ -17,11 +17,3 @@ kitty theme - noirblaze
 
 <b>The setup uses polybar 3.7 (currently available as polybar-git for arch) due the new tray implementation which doesn't break corners.</b>
 
-<b>Symlinks:</b>
-
-ln -s ~/.config/zsh/zshrc ~/.zshrc
-
-ln -s ~/.config/nvidia/nvidia-settings-rc ~/.nvidia-settings-rc
-
-mkdir ~/.config/claws-mail
-ln -s ~/.config/claws-mail ~/.claws-mail
