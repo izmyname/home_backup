@@ -26,10 +26,10 @@ exec_always --no-startup-id pkill mpd-notificatio;mpd-notification -H localhost 
 
 #keyboard shortcuts
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
-bindcode $mod+40 exec $menu 
-bindcode $mod+21 exec --no-startup-id $sysmonitor
-bindsym $mod+x exec --no-startup-id $BROWSER
-bindsym $mod+c exec --no-startup-id $mail 
+bindsym $mod+x exec --no-startup-id $menu 
+bindsym $mod+i exec --no-startup-id $sysmonitor
+bindsym $mod+z exec --no-startup-id $BROWSER
+bindsym $mod+m exec --no-startup-id $mail 
 bindsym $mod+t exec --no-startup-id $clock
 bindsym $mod+q kill
 bindsym --release $mod+Shift+q exec --no-startup-id  xkill 
@@ -39,7 +39,7 @@ bindcode $mod+96 exec --no-startup-id rfkill toggle all
 bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "$HOME/screenshot-$(date)"
-bindsym $mod+z exec --no-startup-id $filemanager
+bindsym $mod+n exec --no-startup-id $filemanager
 
 #mpd-mpc remote control
 bindsym XF86AudioNext exec --no-startup-id mpc next
