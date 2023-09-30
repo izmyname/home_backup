@@ -1,12 +1,10 @@
 #ln -s > ~/.zshrc
 
-#ZSH 
-
+#zsh
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 3
 zstyle ':completion:*' menu select
 zstyle :compinstall filename '/home/arch-mage/.config/zsh/zshrc'
-
 autoload -Uz compinit
 compinit -d ~/.cache/zcompdump
 HISTFILE=~/.cache/zhistfile
@@ -16,7 +14,6 @@ setopt autocd extendedglob notify
 setopt correct
 unsetopt beep
 bindkey -v
-
 export PATH=$HOME/.local/bin:$PATH
 alias "ls=ls --color=auto"
 alias "grep=grep --color=auto"
@@ -24,10 +21,12 @@ alias cal='cal -m'
 alias zzz='systemctl suspend'
 alias ZZZ='poweroff'
 alias lock='loginctl lock-session'
-
-#prompt
 autoload -U colors && colors
 PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
+
+
+#xdg-user-dirs
+source ~/.config/user-dirs.dirs
 
 #rclone
 export RCLONE_PROGRESS=true
