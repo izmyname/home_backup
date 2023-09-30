@@ -25,6 +25,9 @@ exec_always --no-startup-id unclutter &
 exec --no-startup-id $i3lock
 exec_always --no-startup-id pkill mpd-notificatio;mpd-notification -H localhost -p 6600 -m /home/arch-mage/mus -o -s 200 -t 10 &
 
+#closing the lid locks the screen
+bindcode 248 exec --no-startup-id $lockscreen
+
 #keyboard shortcuts
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym $mod+d exec --no-startup-id $menu 
