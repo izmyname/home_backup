@@ -11,6 +11,7 @@ set $i3lock  xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local
 set $statusbar $HOME/.local/bin/launch.sh
 set $sysmonitor $TERMINAL -e htop
 set $filemanager $TERMINAL -e nwrap 
+set $lockscreen loginctl lock-session
 
 #autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -37,6 +38,7 @@ bindsym --release $mod+Shift+q exec --no-startup-id  xkill
 bindsym $mod+Escape exec --no-startup-id systemctl suspend
 bindsym $mod+Shift+Escape exec --no-startup-id reboot
 bindcode $mod+96 exec --no-startup-id rfkill toggle all
+bindsym $mod+Shift+z exec --no-startup-id $lockscreen
 bindsym Print exec --no-startup-id maim "$HOME/screenshot-$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/screenshot-$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "$HOME/screenshot-$(date)"
