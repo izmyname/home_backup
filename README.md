@@ -5,7 +5,7 @@ yt-dlp downloads location - ~/vid
 
 mpd music location - ~/mus
 
-transmission download/watchdir location ~/web
+qutebrowser and transmission download/watchdir location ~/web
 
 Polybar fonts - otf-font-awesome noto-fonts, ttf-dejavu
 
