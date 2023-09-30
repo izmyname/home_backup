@@ -30,7 +30,8 @@ autoload -U colors && colors
 PS1="%{$fg[red]%}%D{%a %d %b} %D{%H:%M} %{$reset_color%}%{$fg[green]%}%n%{$reset_color%} %{$fg[blue]%}%~ %{$reset_color%}%{$fg[red]%}>%{$reset_color%}% "
 
 #rclone
-export RCLONE_VERBOSE=1
+export RCLONE_PROGRESS=true
+export RCLONE_HUMAN_READABLE=true
 
 #kitty terminal emulator
 alias icat="kitty +kitten icat"
