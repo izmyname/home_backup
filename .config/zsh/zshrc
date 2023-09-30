@@ -48,8 +48,8 @@ BLK="04" CHR="04" DIR="04" EXE="00" REG="00" HARDLINK="00" SYMLINK="06" MISSING=
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)$"
 export NNN_FIFO='/tmp/nnn.fifo'
-alias n='n -P p'
-alias nnn='n -P p'
+alias n='n -exP p'
+alias nnn='n -exP p'
 
 #mpc - mpd remote
 alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
