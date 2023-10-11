@@ -92,7 +92,7 @@ mullvad-vpn-cli
 ncmpcpp
 neovim
 neovim-symlinks
-network-manager-applet
+networkmanager
 nfs-utils
 nnn
 noto-fonts
