@@ -225,4 +225,6 @@ client.background       #ffffff
 
 
 
+#windows properties
+for_window [class="kitty" title="sway-launcher-desktop"] floating enable, sticky enable, resize set 30 ppt 60 ppt, border pixel 5
 
