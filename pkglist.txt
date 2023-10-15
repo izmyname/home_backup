@@ -135,6 +135,7 @@ sg3_utils
 smartmontools
 snapper
 sof-firmware
+sway-launcher-desktop
 telegram-desktop
 tlp
 tor
