@@ -14,7 +14,7 @@ set $filemanager $TERMINAL -e nwrap
 set $lockscreen loginctl lock-session
 
 #autostart
-exec --no-startup-id dex --autostart --environment i3
+exec --no-startup-id sway-launcher-desktop autostart
 exec_always --no-startup-id $feh_wallpaper 
 exec_always --no-startup-id $statusbar
 exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
