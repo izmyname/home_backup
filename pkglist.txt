@@ -18,7 +18,6 @@ brightnessctl
 chaotic-keyring
 chaotic-mirrorlist
 claws-mail
-dex
 dhclient
 dmidecode
 dmraid
