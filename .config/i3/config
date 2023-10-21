@@ -196,7 +196,7 @@ hide_edge_borders both
 default_border none
 default_floating_border normal
 gaps inner 10
-gaps bottom 30
+gaps bottom 35
 gaps top 35
 
 #Default_orientation horizontal|vertical|auto
