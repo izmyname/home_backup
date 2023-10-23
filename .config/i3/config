@@ -6,7 +6,7 @@ set $mod Mod4
 set $menu  $TERMINAL -e sway-launcher-desktop
 set $mail claws-mail
 set $clock  $TERMINAL -e tty-clock -C3 -c -s -n -f "%A %d %B %Y (%Z)"
-set $feh_wallpaper  feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/backgrounds/wallpaper_27.png'
+set $feh_wallpaper  feh --no-fehbg --bg-scale '/home/arch-mage/.local/share/backgrounds/wallpaper_34.png'
 set $i3lock  xss-lock --transfer-sleep-lock -- i3lock -i '/home/arch-mage/.local/share/backgrounds/lock.png' --nofork
 set $statusbar $HOME/.local/bin/launch.sh
 set $sysmonitor $TERMINAL -e htop
@@ -196,8 +196,8 @@ hide_edge_borders both
 default_border none
 default_floating_border normal
 gaps inner 10
-gaps bottom 35
-gaps top 35
+gaps bottom 30
+gaps top 30
 
 #Default_orientation horizontal|vertical|auto
 default_orientation auto
