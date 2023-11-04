@@ -34,7 +34,6 @@ ethtool
 exfatprogs
 feh
 ffmpegthumbnailer
-foliate
 gamemode
 geoip
 geoip-database-extra
