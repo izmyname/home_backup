@@ -120,7 +120,7 @@ python-packaging
 python-requests
 qt5ct
 qt6ct
-qutebrowser-git
+qutebrowser
 rclone
 rebuild-detector
 reflector
