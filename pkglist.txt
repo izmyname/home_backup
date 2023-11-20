@@ -109,7 +109,7 @@ pavucontrol
 picom
 pipewire-alsa
 pipewire-pulse
-polybar-git
+polybar
 proton-ge-custom
 protonmail-bridge-nogui
 protontricks-git
