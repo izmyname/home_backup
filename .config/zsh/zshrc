@@ -64,6 +64,9 @@ alias clock=tty-clock
 #inxi
 alias inxi="inxi -c11"
 
+#pacdiff
+export DIFFPROG='nvim -d'
+
 #display on startup
 cal
 
