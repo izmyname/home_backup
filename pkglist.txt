@@ -89,7 +89,6 @@ mpv
 mullvad-vpn-cli
 ncmpcpp
 neovim
-neovim-symlinks
 networkmanager
 nfs-utils
 nnn
