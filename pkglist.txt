@@ -58,7 +58,7 @@ i3lock
 intel-ucode
 inxi
 iwd
-kitty-git
+kitty
 kvantum
 lib32-gamemode
 lib32-opencl-nvidia
