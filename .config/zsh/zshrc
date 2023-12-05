@@ -67,6 +67,9 @@ alias inxi="inxi -c11"
 #pacdiff
 export DIFFPROG='nvim -d'
 
+#neovim
+alias edit=nvim
+
 #display on startup
 cal
 
