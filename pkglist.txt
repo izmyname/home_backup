@@ -145,7 +145,6 @@ tty-clock
 udiskie
 ufw
 unclutter
-units
 unrar
 unzip
 upower
