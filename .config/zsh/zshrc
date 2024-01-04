@@ -65,11 +65,14 @@ alias clock=tty-clock
 #inxi
 alias inxi="inxi -c11"
 
-#pacdiff
+#pacman-contrib - pacdiff
 export DIFFPROG='nvim -d'
 
 #neovim
 alias edit=nvim
+
+#gio trash
+alias purgetrash='gio trash --empty'
 
 #display on startup
 cal
