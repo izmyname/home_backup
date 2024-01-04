@@ -53,6 +53,7 @@ alias nnn='n -ex'
 
 #mpc - mpd remote
 alias mpc="mpc -f '%position%. %Artist% %performer% - %title% (%Album% %date%)'"
+#export MPC_FORMAT='%position%. %Artist% %performer% - %title% (%Album% %date%)'
 
 #mpd-notification
 alias mpd-notification="mpd-notification -H localhost -p 6600 -m /home/arch-mage/mus -o -s 200 -t 10"
