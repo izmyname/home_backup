@@ -72,6 +72,7 @@ export DIFFPROG='nvim -d'
 alias edit=nvim
 
 #gio trash
+alias trash='gio trash'
 alias purgetrash='gio trash --empty'
 
 #display on startup
