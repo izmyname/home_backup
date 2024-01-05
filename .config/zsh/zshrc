@@ -10,8 +10,7 @@ compinit -d ~/.cache/zcompdump
 HISTFILE=~/.cache/zhistfile
 HISTSIZE=500
 SAVEHIST=500
-setopt autocd extendedglob notify
-setopt correct
+setopt autocd extendedglob notify correct
 unsetopt beep
 bindkey -v
 export PATH=$HOME/.local/bin:$PATH
